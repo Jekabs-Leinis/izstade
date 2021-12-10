@@ -34,12 +34,8 @@ export default function Home() {
             nu cau te es
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a className={styles.card}>
+            Šis vēl nav produkcijā
           </a>
 
           <a
