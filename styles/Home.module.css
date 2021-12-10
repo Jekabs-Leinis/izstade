@@ -8,6 +8,10 @@
   height: 100vh;
 }
 
+.list {
+    background: #FF0000;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
