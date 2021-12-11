@@ -9,6 +9,7 @@ export default function Voice() {
       console.log('mount it!');
       const player = document.getElementById("player");
       player.currentTime = 25;
+      player.play();
     }, []);
 
     const router = useRouter()
