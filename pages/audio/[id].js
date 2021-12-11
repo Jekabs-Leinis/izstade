@@ -25,7 +25,7 @@ export default function Voice() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          voice: {id} - {description}
+          audio: {id} - {description}
           <audio id="player" controls>
             <source id="audio" src="/mp3/dog.mp3" type="audio/mpeg" />
             Your browser does not support audio
