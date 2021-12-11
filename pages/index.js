@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -13,12 +14,16 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          <a href="/voice/akcel" className={styles.card}>
-            Aksels
-          </a>
-          <a href="/voice/liga" className={[styles.card, styles.list].join(" ")}>
-            Līga
-          </a>
+            <Link href="/voice/akcel">
+                <a className={styles.card}>
+                    Aksels
+                </a>
+            </Link>
+            <Link href="/voice/liga">
+                <a className={[styles.card, styles.list].join(" ")}>
+                    Līga
+                </a>
+            </Link>
         </div>
       </main>
     </div>
