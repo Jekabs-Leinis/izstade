@@ -13,27 +13,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/voice/akcel" className={styles.card}>
+            Aksels
           </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            nu cau te es
-          </a>
-
-          <a className={styles.card}>
-            Šis vēl nav produkcijā
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={[styles.card, styles.list].join(" ")}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="/voice/liga" className={[styles.card, styles.list].join(" ")}>
+            Līga
           </a>
         </div>
       </main>
