@@ -24,6 +24,11 @@ export default function Home() {
                     Līga
                 </a>
             </Link>
+            <Link href="/info">
+                <a className={[styles.card, styles.list].join(" ")}>
+                    Info lapa
+                </a>
+            </Link>
         </div>
       </main>
     </div>
