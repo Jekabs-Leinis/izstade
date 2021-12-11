@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-            <Link href="/voice/akcel">
+            <Link href="/voice/aksel">
                 <a className={styles.card}>
                     Aksels
                 </a>
