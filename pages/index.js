@@ -14,14 +14,19 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-            <Link href="/voice/aksel">
+            <Link href="/audio/aksel">
                 <a className={styles.card}>
                     Aksels
                 </a>
             </Link>
-            <Link href="/voice/liga">
+            <Link href="/audio/liga">
                 <a className={[styles.card, styles.list].join(" ")}>
                     Līga
+                </a>
+            </Link>
+            <Link href="/info">
+                <a className={[styles.card, styles.list].join(" ")}>
+                    Info lapa
                 </a>
             </Link>
         </div>

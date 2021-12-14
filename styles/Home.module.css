@@ -13,12 +13,11 @@
 }
 
 .main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+}
+
+.h1 {
+    font-size: 30px;
 }
 
 .footer {
@@ -122,4 +121,8 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.newLine {
+    white-space: pre-line;
 }
