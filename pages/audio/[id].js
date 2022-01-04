@@ -3,18 +3,24 @@ import Head from 'next/head'
 import styles from '../../styles/SameLevel.module.css'
 import { useRouter } from 'next/router'
 import lv_data from '../../config/lv.json'
+import { setTimingsrc } from 'timingsrc';
+import * as TIMINGSRC from "timing-object";
 
 export default function Voice() {
     useEffect(() => {
       console.log('mount it!');
       const player = document.getElementById("player");
-      player.currentTime = 25;
-      player.play();
+
+      let to = new TIMINGSRC.TimingObject({range:[0,31]});
+      to.update({position:19.0, velocity: 1.0});
+      setTimingsrc(player, to);
+
+      console.log("for reallzzz?", to)
     }, []);
 
-    const router = useRouter()
-    const { id } = router.query
-    const description = lv_data[id]?.description
+    const router = useRouter();
+    const { id } = router.query;
+    const description = lv_data[id]?.description;
   return (
     <div className={styles.container}>
       <Head>

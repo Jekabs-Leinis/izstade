@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.1",
+    "next": "^12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-html-parser": "^2.0.2"
+    "react-html-parser": "^2.0.2",
+    "timingsrc": "^1.1.21",
+    "timing-object": "latest"
   },
   "devDependencies": {
     "eslint": "7.32.0",
