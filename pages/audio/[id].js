@@ -12,6 +12,7 @@ export default function Voice() {
       const player = document.getElementById("player");
 
       let to = new TIMINGSRC.TimingObject({range:[0,31]});
+      // let sync = new TIMINGSRC.MediaSync(htmlElement, timingObject, options);
       to.update({position:19.0, velocity: 1.0});
       setTimingsrc(player, to);
 
@@ -27,6 +28,8 @@ export default function Voice() {
         <title>Klusuma augļi</title>
         <meta name="description" content="Klusuma augļi" />
         <link rel="icon" href="/favicon.ico" />
+        <script type="text/javascript" src="http://www.mcorp.no/lib/mcorp-2.0.js"></script>
+        <script type="module" src="/js/main.js"></script>
       </Head>
 
       <main className={styles.main}>
