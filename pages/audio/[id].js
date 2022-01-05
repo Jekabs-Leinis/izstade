@@ -5,6 +5,7 @@ import { useRouter } from 'next/router'
 import lv_data from '../../config/lv.json'
 import { setTimingsrc } from 'timingsrc';
 import * as TIMINGSRC from "timing-object";
+import Script from 'next/script'
 
 export default function Voice() {
     useEffect(() => {
@@ -28,8 +29,8 @@ export default function Voice() {
         <title>Klusuma augļi</title>
         <meta name="description" content="Klusuma augļi" />
         <link rel="icon" href="/favicon.ico" />
-        <script type="text/javascript" src="http://www.mcorp.no/lib/mcorp-2.0.js"></script>
-        <script type="module" src="/js/main.js"></script>
+        <Script type="text/javascript" src="http://www.mcorp.no/lib/mcorp-2.0.js"></Script>
+        <Script type="module" src="/js/main.js"></Script>
       </Head>
 
       <main className={styles.main}>
