@@ -3,6 +3,8 @@ import Head from 'next/head'
 import styles from '../../styles/SameLevel.module.css'
 import { useRouter } from 'next/router'
 import lv_data from '../../config/lv.json'
+import { TimingObject } from 'timing-object';
+import { setTimingsrc } from 'timingsrc';
 
 export default function Voice() {
     let timingProvider = {position:2};
