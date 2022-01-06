@@ -34,8 +34,8 @@ export default function Voice() {
             app.run = function () {
                 motion = app.motions["shared"];
                 motion.on("timeupdate", function (e) {
-                    console.log("pos change?",e.pos, to.pos);
-                    to.update({position: e.pos});
+                    console.log("pos change?",e.pos, e, to.pos);
+                    to.update({position: e.pos, velocity: e.vel});
                 });
             };
             app.init();
@@ -51,7 +51,7 @@ export default function Voice() {
             console.log("media sync loaded");
             MCorp.mediaSync(document.getElementById('player'), to);
             MCorp.mediaSync(document.getElementById('player2'), to);
-            MCorp.mediaSync(document.getElementById('video'), to);
+//            MCorp.mediaSync(document.getElementById('video'), to);
         };
     }
     
@@ -86,30 +86,13 @@ export default function Voice() {
             Your browser does not support audio
           </audio>
 
-            <audio id="player2" controls>
-                <source id="audio" src="/mp3/dog.mp3" type="audio/mpeg" />
-                Your browser does not support audio
-            </audio>
-            <button onClick={() => handleClick()}>click me</button>
-            <button onClick={() => startPlaying()}>start playing</button>
-            <button onClick={() => stopPlaying()}>stop playing</button>
-
-            <video
-                id="video"
-                // loop
-                // autoPlay
-                // muted
-                style={{
-                    position: "relative",
-                    width: "100%",
-                    height: "15rem",
-                    left: 0,
-                    top: 0,
-                }}
-            >
-                <source src="https://mcorp.no/res/bigbuckbunny.webm" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+          <audio id="player2" controls>
+              <source id="audio" src="/mp3/dog.mp3" type="audio/mpeg" />
+              Your browser does not support audio
+          </audio>
+          <button onClick={() => handleClick()}>click me</button>
+          <button onClick={() => startPlaying()}>start playing</button>
+          <button onClick={() => stopPlaying()}>stop playing</button>
         </div>
       </main>
     </div>
