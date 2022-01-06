@@ -1,10 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import { setTimingsrc } from 'timingsrc';
-// import * as TIMINGSRC from "timing-object";
+let position = 0;
+
+(async () => {
+    while(true) {
+        await sleep(1000);
+        position++;
+    }
+})();
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 export default function handler(req, res) {
-    // let to = new TIMINGSRC.TimingObject({range:[0,31]});
-    let x = 2;
-
-    res.status(200).json({ name: 'John Doe', value: x, to: 3 })
+    res.status(200).json({ name: 'John Doe', to: position })
 }

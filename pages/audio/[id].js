@@ -3,30 +3,40 @@ import Head from 'next/head'
 import styles from '../../styles/SameLevel.module.css'
 import { useRouter } from 'next/router'
 import lv_data from '../../config/lv.json'
-import { TimingObject } from 'timing-object';
-import { setTimingsrc } from 'timingsrc';
 
 export default function Voice() {
-    let timingProvider = {position:2};
+    let motion = null;
 
     useEffect(() => {
+        let anotherScript = document.createElement("script");
+        anotherScript.type = "text/javascript";
+        anotherScript.src = "https://webtiming.github.io/timingsrc/lib/timingsrc-v2.js";
+
+        document.head.appendChild(anotherScript);
+
+        anotherScript.onload = () => {
+            timingObjectLoaded();
+        };
+    }, []);
+
+    function timingObjectLoaded() {
+        console.log("whaaat?");
+        let to = new TIMINGSRC.TimingObject({range:[0,100]});
+        console.log("to...", to);
+
         let aScript = document.createElement('script');
         aScript.type = "text/javascript";
         aScript.src = "https://www.mcorp.no/lib/mcorp-2.0.js";
 
         document.head.appendChild(aScript);
         aScript.onload = () => {
-            console.log("whaaatrewerwer?", MCorp);
             let app = MCorp.app("4952025322445042341");
-
-            console.log("mb now?");
             app.run = function () {
-                var motion = app.motions["shared"];
+                motion = app.motions["shared"];
                 motion.on("timeupdate", function (e) {
-                    console.log("pos change?",e);
+                    console.log("pos change?",e.pos, to.pos);
+                    to.update({position: e.pos});
                 });
-
-                motion.update(1);
             };
             app.init();
         };
@@ -39,20 +49,23 @@ export default function Voice() {
 
         mediaSyncScript.onload = () => {
             console.log("media sync loaded");
-            // MCorp.mediaSync(document.getElementById('player'), to);
+            MCorp.mediaSync(document.getElementById('player'), to);
+            MCorp.mediaSync(document.getElementById('player2'), to);
+            MCorp.mediaSync(document.getElementById('video'), to);
         };
+    }
+    
+    function handleClick() {
+        motion.update(2)
+    }
+    
+    function startPlaying() {
+        motion.update({velocity:1.0, volume: 10})
+    }
 
-        let anotherScript = document.createElement("script");
-        anotherScript.type = "text/javascript";
-        anotherScript.src = "https://webtiming.github.io/timingsrc/lib/timingsrc-esm-v3.js";
-
-        anotherScript.onload = () => {
-            console.log("whaaat?");
-            //OK this could go on server side
-            let to = new TIMINGSRC.TimingObject({provider:timingProvider});
-            console.log("to...", to);
-        };
-    }, []);
+    function stopPlaying() {
+        motion.update({velocity:0.0})
+    }
 
     const router = useRouter();
     const { id } = router.query;
@@ -72,6 +85,31 @@ export default function Voice() {
             <source id="audio" src="/mp3/dog.mp3" type="audio/mpeg" />
             Your browser does not support audio
           </audio>
+
+            <audio id="player2" controls>
+                <source id="audio" src="/mp3/dog.mp3" type="audio/mpeg" />
+                Your browser does not support audio
+            </audio>
+            <button onClick={() => handleClick()}>click me</button>
+            <button onClick={() => startPlaying()}>start playing</button>
+            <button onClick={() => stopPlaying()}>stop playing</button>
+
+            <video
+                id="video"
+                // loop
+                // autoPlay
+                // muted
+                style={{
+                    position: "relative",
+                    width: "100%",
+                    height: "15rem",
+                    left: 0,
+                    top: 0,
+                }}
+            >
+                <source src="https://mcorp.no/res/bigbuckbunny.webm" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
         </div>
       </main>
     </div>
