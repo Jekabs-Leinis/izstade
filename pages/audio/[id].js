@@ -1,23 +1,55 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Head from 'next/head'
 import styles from '../../styles/SameLevel.module.css'
 import { useRouter } from 'next/router'
 import lv_data from '../../config/lv.json'
-// import { setTimingsrc } from 'timingsrc';
-// import * as TIMINGSRC from "timing-object";
-import Script from 'next/script'
 
 export default function Voice() {
+    let timingProvider = {position:2};
+
     useEffect(() => {
-      console.log('mount it!');
-      const player = document.getElementById("player");
+        let aScript = document.createElement('script');
+        aScript.type = "text/javascript";
+        aScript.src = "http://www.mcorp.no/lib/mcorp-2.0.js";
 
-      // let to = new TIMINGSRC.TimingObject({range:[0,31]});
-      // // let sync = new TIMINGSRC.MediaSync(htmlElement, timingObject, options);
-      // to.update({position:19.0, velocity: 1.0});
-      // setTimingsrc(player, to);
+        document.head.appendChild(aScript);
+        aScript.onload = () => {
+            console.log("whaaatrewerwer?", MCorp);
+            let app = MCorp.app("4952025322445042341");
 
-      // console.log("for reallzzz?", to)
+            console.log("mb now?");
+            app.run = function () {
+                var motion = app.motions["shared"];
+                motion.on("timeupdate", function (e) {
+                    console.log("pos change?",e);
+                });
+
+                motion.update(1);
+            };
+            app.init();
+        };
+
+        let mediaSyncScript = document.createElement("script");
+        mediaSyncScript.type = "text/javascript";
+        mediaSyncScript.src = "https://mcorp.no/lib/mediasync.js";
+
+        document.head.appendChild(mediaSyncScript);
+
+        mediaSyncScript.onload = () => {
+            console.log("media sync loaded");
+            // MCorp.mediaSync(document.getElementById('player'), to);
+        };
+
+        let anotherScript = document.createElement("script");
+        anotherScript.type = "text/javascript";
+        anotherScript.src = "https://webtiming.github.io/timingsrc/lib/timingsrc-esm-v3.js";
+
+        anotherScript.onload = () => {
+            console.log("whaaat?");
+            //OK this could go on server side
+            let to = new TIMINGSRC.TimingObject({provider:timingProvider});
+            console.log("to...", to);
+        };
     }, []);
 
     const router = useRouter();
@@ -29,8 +61,6 @@ export default function Voice() {
         <title>Klusuma augļi</title>
         <meta name="description" content="Klusuma augļi" />
         <link rel="icon" href="/favicon.ico" />
-        <Script type="text/javascript" src="http://www.mcorp.no/lib/mcorp-2.0.js"></Script>
-        <Script type="module" src="/js/main.js"></Script>
       </Head>
 
       <main className={styles.main}>
@@ -44,4 +74,4 @@ export default function Voice() {
       </main>
     </div>
   )
-}
+};
