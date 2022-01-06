@@ -10,7 +10,7 @@ export default function Voice() {
     useEffect(() => {
         let aScript = document.createElement('script');
         aScript.type = "text/javascript";
-        aScript.src = "http://www.mcorp.no/lib/mcorp-2.0.js";
+        aScript.src = "https://www.mcorp.no/lib/mcorp-2.0.js";
 
         document.head.appendChild(aScript);
         aScript.onload = () => {
