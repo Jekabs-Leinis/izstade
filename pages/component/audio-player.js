@@ -23,7 +23,7 @@ export default function AudioPlayer() {
 
         document.head.appendChild(aScript);
         aScript.onload = () => {
-            let app = MCorp.app("4952025322445042341");
+            let app = MCorp.app("3730955481553182142");
             app.run = function () {
                 motion = app.motions["shared"];
                 motion.on("timeupdate", function (e) {
