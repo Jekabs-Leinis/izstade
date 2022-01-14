@@ -60,6 +60,7 @@ export default function AudioPlayer() {
 
                 player.ontimeupdate = function () {
                     if (motion) {
+                        console.log("player position", player.currentTime);
                         motion.update(player.currentTime, player.playbackRate);
                     }
                 }
