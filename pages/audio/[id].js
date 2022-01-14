@@ -3,6 +3,8 @@ import Head from 'next/head'
 import styles from '../../styles/SameLevel.module.css'
 import { useRouter } from 'next/router'
 import lv_data from '../../config/lv.json'
+import SynchronizedBy from "../component/synchronizedBy";
+import AudioPlayer from "../component/audio-player";
 
 export default function Voice() {
     let motion = null;
@@ -54,11 +56,11 @@ export default function Voice() {
 //            MCorp.mediaSync(document.getElementById('video'), to);
         };
     }
-    
+
     function handleClick() {
         motion.update(2)
     }
-    
+
     function startPlaying() {
         motion.update({velocity:1.0, volume: 10})
     }
@@ -94,6 +96,8 @@ export default function Voice() {
           <button onClick={() => startPlaying()}>start playing</button>
           <button onClick={() => stopPlaying()}>stop playing</button>
         </div>
+        <AudioPlayer/>
+        <SynchronizedBy/>
       </main>
     </div>
   )
