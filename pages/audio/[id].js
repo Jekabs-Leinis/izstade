@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react';
 import Head from 'next/head'
 import styles from '../../styles/SameLevel.module.css'
-import { useRouter } from 'next/router'
-import lv_data from '../../config/lv.json'
-import SynchronizedBy from "../component/synchronizedBy";
+import SynchronizedBy from "../component/synchronized-by";
 import AudioPlayer from "../component/audio-player";
+import PersonInfo from "../component/person-info";
 
 export default function Voice() {
     let motion = null;
@@ -68,10 +67,6 @@ export default function Voice() {
     function stopPlaying() {
         motion.update({velocity:0.0})
     }
-
-    const router = useRouter();
-    const { id } = router.query;
-    const description = lv_data[id]?.description;
   return (
     <div className={styles.container}>
       <Head>
@@ -82,7 +77,7 @@ export default function Voice() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          audio: {id} - {description}
+          <PersonInfo/>
           <audio id="player" controls>
             <source id="audio" src="/mp3/dog.mp3" type="audio/mpeg" />
             Your browser does not support audio
