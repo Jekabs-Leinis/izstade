@@ -3,7 +3,7 @@
 }
 
 .list {
-    background: #FF0000;
+  background: #FF0000;
 }
 
 .main {
@@ -15,18 +15,24 @@
 }
 
 .h1 {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .h2 {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .h3 {
-    font-size: 16px;
-    font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.p {
+  padding: 0 32px;
+  font-size: 19px;
+  min-height: 16px;
 }
 
 .footer {
@@ -121,5 +127,10 @@
 }
 
 .newLine {
-    white-space: pre-line;
+  white-space: pre-line;
+}
+
+.sync {
+  padding: 40px 20px 20px 20px;
+  text-align: center;
 }

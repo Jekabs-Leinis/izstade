@@ -3,13 +3,14 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import lv_data from '../config/lv.json'
+import en_data from '../config/lv.json'
 import ReactHtmlParser from 'react-html-parser'
 
 export default function Home() {
-  const description_lv = lv_data['INFO'].text_lv;
-  const description_en = lv_data['INFO'].text_en;
-  const name_lv = lv_data['INFO'].name_lv;
-  const name_en = lv_data['INFO'].name_en;
+  const description_lv = lv_data['INFO'].description;
+  const description_en = lv_data['INFO'].description;
+  const name_lv = lv_data['INFO'].name;
+  const name_en = en_data['INFO'].name;
 
   function toHtml(value) {
     return ReactHtmlParser(value);

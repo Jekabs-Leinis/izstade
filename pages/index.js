@@ -1,9 +1,25 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
+import lv_data from '../config/lv.json'
+
 export default function Home() {
+  const keys = Object.keys(lv_data)
+
+  function personButton(id) {
+    const name = lv_data[id].name;
+    var link = '/audio/' + id
+
+    return (
+      <Link id={id} href={link}>
+        <a className={styles.card}>
+          {name}
+        </a>
+      </Link>
+    )
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -14,23 +30,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-            <Link href="/audio/aksel">
-                <a className={styles.card}>
-                    Aksels
-                </a>
-            </Link>
-            <Link href="/audio/liga">
-                <a className={[styles.card, styles.list].join(" ")}>
-                    Līga
-                </a>
-            </Link>
-            <Link href="/info">
-                <a className={[styles.card, styles.list].join(" ")}>
-                    Info lapa
-                </a>
-            </Link>
+          {keys.map(id => personButton(id))}
         </div>
       </main>
     </div>
   )
 }
+
