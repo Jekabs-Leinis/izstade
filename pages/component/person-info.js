@@ -30,7 +30,7 @@ export default function PersonInfo() {
       )
     } else {
       return (
-        <p className={styles.p}>The side that you are looking for doesn't exist</p>
+        <p className={styles.p}>The side that you are looking for doesn&apos;t exist</p>
       )
     }
   }
