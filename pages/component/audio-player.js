@@ -7,7 +7,6 @@ export default function AudioPlayer() {
     const {id} = router.query;
     const [isPlaying, setIsPlaying] = useState(false);
     let player;
-    let motion = null;
     let audioSync;
 
     useEffect(() => {
@@ -15,14 +14,12 @@ export default function AudioPlayer() {
         if (id && isPlaying) {
             startMcorpApp();
         }
-    }, [id, isPlaying]);
 
-    useEffect(() => {
         return () => {
-            endSync();
+            audioSync?.stop();
             player?.pause();
         }
-    }, []);
+    }, [id, isPlaying]);
 
     function startMcorpApp() {
         let aScript = document.createElement('script');
@@ -33,7 +30,7 @@ export default function AudioPlayer() {
         aScript.onload = () => {
             let app = MCorp.app("4952025322445042341", {anon: true});
             app.run = function () {
-                motion = app.motions["audio-sync"];
+                let motion = app.motions["audio-sync"];
                 motion.update({velocity: 1.0});
 
                 motion.on("timeupdate", function (e) {
@@ -68,10 +65,6 @@ export default function AudioPlayer() {
         };
     }
 
-    function endSync() {
-        audioSync?.stop();
-    }
-
     function getAudioSource() {
         return "/mp3/" + id + ".mp3"
     }
@@ -79,7 +72,7 @@ export default function AudioPlayer() {
     return (
         <div className={styles.player}>
             {isPlaying ?
-                <audio  id="player" controls>
+                <audio id="player" controls>
                     <source id="audio" src={getAudioSource()} type="audio/mpeg"/>
                     Your browser does not support audio
                 </audio>
