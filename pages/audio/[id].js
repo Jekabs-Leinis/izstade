@@ -21,7 +21,7 @@ export default function Voice() {
             <main className={styles.main}>
                 {
                     Object.keys(lv_data).includes(id)
-                        ? (<div><SynchronizedBy/><AudioPlayer/><PersonInfo/></div>)
+                        ? (<div><AudioPlayer/><PersonInfo/><SynchronizedBy/></div>)
                         : (<p className={styles.p}>The site that you are looking for doesn&apos;t exist</p>)
                 }
             </main>
