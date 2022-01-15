@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {useRouter} from "next/router";
 import styles from "../../styles/Home.module.css";
+import Image from "next/image"
 
 export default function AudioPlayer() {
     const router = useRouter();
@@ -37,7 +38,7 @@ export default function AudioPlayer() {
                     // console.log("pos change?", e.pos, e);
 
                     //548 == 9:08 end of MP3
-                    if (e.pos >= 548 && e.vel == 0) {
+                    if (e.pos >= 548 && e.vel === 0.0) {
                         motion.update({position:0.0, velocity: 1.0});
                     }
                 });
@@ -78,7 +79,7 @@ export default function AudioPlayer() {
                 </audio>
                 :
                 <div>
-                    <button onClick={() => startPlaying()}>start playing</button>
+                    <Image className={styles.playBtn} onClick={() => startPlaying()} src="/icon/play_btn.png" alt="me" width="200%" height="200%" />
                 </div>
             }
         </div>

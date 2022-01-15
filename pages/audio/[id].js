@@ -11,20 +11,20 @@ export default function Voice() {
     const router = useRouter();
     const { id } = router.query;
 
-    if (Object.keys(lv_data).includes(id)) {
-        return (<div className={styles.container}>
+    return(
+        <div className={styles.container}>
             <Head>
                 <title>Klusuma augļi</title>
                 <meta name="description" content="Klusuma augļi"/>
-                <link rel="icon" href="/favicon.ico"/>
+                <link rel="icon" href="../icon/favicon.ico"/>
             </Head>
             <main className={styles.main}>
-                <SynchronizedBy/>
-                <AudioPlayer/>
-                <PersonInfo/>
+                {
+                    Object.keys(lv_data).includes(id)
+                        ? (<div><SynchronizedBy/><AudioPlayer/><PersonInfo/></div>)
+                        : (<p className={styles.p}>The site that you are looking for doesn&apos;t exist</p>)
+                }
             </main>
-        </div>);
-    } else {
-        return (<p className={styles.p}>The site that you are looking for doesn&apos;t exist</p>)
-    }
+        </div>
+    );
 };

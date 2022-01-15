@@ -25,7 +25,7 @@ export default function Home() {
       <Head>
         <title>Klusuma augļi</title>
         <meta name="description" content="Klusuma augļi" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
