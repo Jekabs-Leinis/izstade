@@ -1,20 +1,26 @@
-import React, {useEffect, createRef} from 'react';
+import React, {useEffect} from 'react';
 import {useRouter} from "next/router";
 
 export default function AudioPlayer() {
     const router = useRouter();
-    const { id } = router.query;
-    let player = createRef();
+    const {id} = router.query;
+    let player;
     let motion = null;
+    let audioSync;
 
     useEffect(() => {
         if (id) {
             startMcorpApp();
-        } else {
-            console.log("wait a bit");
         }
-
     }, [id]);
+
+    useEffect(() => {
+        return () => {
+            console.log("on leave", player);
+            endSync();
+            player.pause();
+        }
+    }, []);
 
     function startMcorpApp() {
         let aScript = document.createElement('script');
@@ -23,12 +29,18 @@ export default function AudioPlayer() {
 
         document.head.appendChild(aScript);
         aScript.onload = () => {
-            let app = MCorp.app("3730955481553182142");
+            let app = MCorp.app("4952025322445042341", {anon: true});
             app.run = function () {
-                motion = app.motions["shared"];
+                motion = app.motions["audio-sync"];
+                motion.update({velocity: 1.0});
+
                 motion.on("timeupdate", function (e) {
-                    console.log("pos change?",e.pos, e);
-                    // to.update({position: e.pos, velocity: e.vel});
+                    // console.log("pos change?", e.pos, e);
+
+                    //548 == 9:08 end of MP3
+                    if (e.pos >= 548 && e.vel == 0) {
+                        motion.update({position:0.0, velocity: 1.0});
+                    }
                 });
 
                 startSync(motion);
@@ -46,39 +58,29 @@ export default function AudioPlayer() {
 
         mediaSyncScript.onload = () => {
             console.log("media sync loaded", id);
-            let player = document.getElementById("player");
-            if (id != "master") {
-                MCorp.mediaSync(player, motion);
-            } else {
-                player.play();
-
-                player.onended = function() {
-                    console.log("player pos", player.currentTime);
-
-                    player.play();
-                };
-
-                player.ontimeupdate = function () {
-                    if (motion) {
-                        console.log("player position", player.currentTime);
-                        motion.update(player.currentTime, player.playbackRate);
-                    }
-                }
-            }
+            player = document.getElementById("player");
+            audioSync = MCorp.mediaSync(player, motion);
         };
     }
 
-    //TODO implement
+    function endSync() {
+        audioSync.stop();
+    }
+
     function getAudioSource() {
-        return "/mp3/dog.mp3"
+        return "/mp3/" + id + ".mp3"
     }
 
     return (
         <div>player for {id} running
-            <audio ref={player} id="player" controls>
-                <source id="audio" src="/mp3/dog.mp3" type="audio/mpeg" />
-                Your browser does not support audio
-            </audio>
+            {id ?
+                <audio id="player" controls>
+                    <source id="audio" src={getAudioSource()} type="audio/mpeg"/>
+                    Your browser does not support audio
+                </audio>
+                :
+                <div></div>
+            }
         </div>
     )
 };

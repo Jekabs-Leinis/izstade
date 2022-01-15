@@ -12,7 +12,7 @@ export default function Home() {
     var link = '/audio/' + id
 
     return (
-      <Link id={id} href={link}>
+      <Link key={id} href={link}>
         <a className={styles.card}>
           {name}
         </a>
