@@ -9,7 +9,7 @@ export default function Home() {
 
   function personButton(id) {
     const name = lv_data[id].name;
-    var link = '/audio/' + id
+    const link = lv_data[id].link;
 
     return (
       <Link key={id} href={link}>

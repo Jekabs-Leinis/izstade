@@ -17,8 +17,7 @@ export default function PersonInfo() {
     return ReactHtmlParser(value);
   }
 
-  function renderPersonCard(id) {
-    if (Object.keys(lv_data).includes(id)) {
+  function renderPersonCard() {
       return (
         <div>
           <h1 className={styles.h1}>{toHtml(name)}</h1>
@@ -28,18 +27,15 @@ export default function PersonInfo() {
           <p className={styles.p}>{toHtml(description_en)}</p>
         </div>
       )
-    } else {
-      return (
-        <p className={styles.p}>The side that you are looking for doesn&apos;t exist</p>
-      )
-    }
   }
 
-  return (
-    <div className={styles.container}>
-      <main className={[styles.main, styles.newLine].join(" ")}>
-        {renderPersonCard(id)}
-      </main>
-    </div>
-  )
+  if(id) {
+      return (<div className={styles.container}>
+          <main className={[styles.main, styles.newLine].join(" ")}>
+              {renderPersonCard()}
+          </main>
+      </div>)
+  } else {
+      return (<div></div>)
+  }
 };

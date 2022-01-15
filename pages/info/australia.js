@@ -1,11 +1,11 @@
-import styles from '../styles/Home.module.css'
-import lv_data from '../config/lv.json'
-import en_data from '../config/lv.json'
+import styles from '../../styles/Home.module.css'
+import lv_data from '../../config/lv.json'
+import en_data from '../../config/en.json'
 import ReactHtmlParser from 'react-html-parser'
 
 export default function Home() {
   const description_lv = lv_data['info']?.description;
-  const description_en = lv_data['info']?.description;
+  const description_en = en_data['info']?.description;
   const name_lv = lv_data['info']?.name;
   const name_en = en_data['info']?.name;
 
