@@ -1,24 +1,26 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import {useRouter} from "next/router";
+import styles from "../../styles/Home.module.css";
 
 export default function AudioPlayer() {
     const router = useRouter();
     const {id} = router.query;
+    const [isPlaying, setIsPlaying] = useState(false);
     let player;
     let motion = null;
     let audioSync;
 
     useEffect(() => {
-        if (id) {
+        // console.log("page loaded", id, isPlaying);
+        if (id && isPlaying) {
             startMcorpApp();
         }
-    }, [id]);
+    }, [id, isPlaying]);
 
     useEffect(() => {
         return () => {
-            console.log("on leave", player);
             endSync();
-            player.pause();
+            player?.pause();
         }
     }, []);
 
@@ -49,6 +51,10 @@ export default function AudioPlayer() {
         };
     }
 
+    function startPlaying() {
+        setIsPlaying(true);
+    }
+
     function startSync(motion) {
         let mediaSyncScript = document.createElement("script");
         mediaSyncScript.type = "text/javascript";
@@ -57,14 +63,13 @@ export default function AudioPlayer() {
         document.head.appendChild(mediaSyncScript);
 
         mediaSyncScript.onload = () => {
-            console.log("media sync loaded", id);
             player = document.getElementById("player");
             audioSync = MCorp.mediaSync(player, motion);
         };
     }
 
     function endSync() {
-        audioSync.stop();
+        audioSync?.stop();
     }
 
     function getAudioSource() {
@@ -72,14 +77,16 @@ export default function AudioPlayer() {
     }
 
     return (
-        <div>player for {id} running
-            {id ?
-                <audio id="player" controls>
+        <div className={styles.player}>
+            {isPlaying ?
+                <audio  id="player" controls>
                     <source id="audio" src={getAudioSource()} type="audio/mpeg"/>
                     Your browser does not support audio
                 </audio>
                 :
-                <div></div>
+                <div>
+                    <button onClick={() => startPlaying()}>start playing</button>
+                </div>
             }
         </div>
     )

@@ -14,11 +14,9 @@ export default function Voice() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
-                <div className={styles.grid}>
-                    <PersonInfo/>
-                    <AudioPlayer/>
-                    <SynchronizedBy/>
-                </div>
+                <SynchronizedBy/>
+                <AudioPlayer/>
+                <PersonInfo/>
             </main>
         </div>
     )

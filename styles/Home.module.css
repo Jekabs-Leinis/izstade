@@ -133,4 +133,10 @@
 .sync {
   padding: 40px 20px 20px 20px;
   text-align: center;
+  font-family: "Rage Italic";
+}
+
+.player {
+  padding: 40px 20px 20px 20px;
+  text-align: center;
 }
