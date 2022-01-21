@@ -14,6 +14,14 @@ export default function AudioPlayer() {
         // console.log("page loaded", id, isPlaying);
         if (id && isPlaying) {
             startMcorpApp();
+
+            window.onfocus = () => {
+                player?.volume = 1;
+            };
+
+            window.onblur = () => {
+                player?.volume = 0;
+            };
         }
 
         return () => {
