@@ -16,11 +16,15 @@ export default function AudioPlayer() {
             startMcorpApp();
 
             window.onfocus = () => {
-                player?.volume = 1;
+                if (player) {
+                    player.volume = 1;
+                }
             };
 
             window.onblur = () => {
-                player?.volume = 0;
+                if (player) {
+                    player.volume = 0;
+                }
             };
         }
 
