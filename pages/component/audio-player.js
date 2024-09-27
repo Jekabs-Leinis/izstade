@@ -50,7 +50,7 @@ export default function AudioPlayer() {
                     // console.log("pos change?", e.pos, e);
 
                     //548 == 9:08 end of MP3
-                    if (e.pos >= 548 && e.vel === 0.0) {
+                    if (e.pos >= 548) {
                         motion.update({position:0.0, velocity: 1.0});
                     }
                 });
