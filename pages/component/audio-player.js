@@ -41,9 +41,9 @@ export default function AudioPlayer() {
 
         document.head.appendChild(aScript);
         aScript.onload = () => {
-            let app = MCorp.app("4952025322445042341", {anon: true});
+            let app = MCorp.app("5091800104256110023", {anon: true});
             app.run = function () {
-                let motion = app.motions["audio-sync"];
+                let motion = app.motions["iru-master"];
                 motion.update({velocity: 1.0});
 
                 motion.on("timeupdate", function (e) {
@@ -79,7 +79,9 @@ export default function AudioPlayer() {
     }
 
     function getAudioSource() {
-        return "/mp3/" + id + ".mp3"
+        //return "/mp3/" + id + ".mp3"
+        //TODO: replace when we have received audio files
+        return "/mp3/master.mp3";
     }
 
     return (
