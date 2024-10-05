@@ -14,8 +14,8 @@ export default function Voice() {
     return(
         <div className={styles.container}>
             <Head>
-                <title>I Ru</title>
-                <meta name="description" content="I Ru"/>
+                <title>IRu</title>
+                <meta name="description" content="IRu"/>
                 <link rel="icon" href="../icon/favicon.ico"/>
             </Head>
             <main className={styles.main}>
