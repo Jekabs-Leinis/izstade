@@ -2,6 +2,6 @@
 
 export default function Home() {
     return (
-        <GenericInfo info_key="info_japan"/>
+        <GenericInfo info_key="info_scatola_di_voce"/>
     )
 }
