@@ -51,6 +51,5 @@
   "KLINTA": "/audio/klinta",
   "SOFIJA": "/audio/sofija",
   "DAFNE": "/audio/dafne",
-  "MASTER": "/audio/master",
-  "INFO_JAPAN": "/info/japan"
+  "MASTER": "/audio/master"
 }

@@ -145,3 +145,18 @@
   cursor: pointer;
 }
 
+.langWidgetContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.langWidgetFlag {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  border: 1px solid darkgray;
+  cursor: pointer;
+  margin: 8px 8px 8px 0;
+}
+

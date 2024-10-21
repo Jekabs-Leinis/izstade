@@ -7,13 +7,14 @@ import lv_data from '../../config/lv.json'
 import en_data from '../../config/en.json'
 import jp_data from '../../config/jp.json'
 
-export default function PersonInfo() {
+export default function PersonInfo({ language }) {
   const router = useRouter();
   const {id} = router.query;
   const name = lv_data[id]?.name;
-  const description_lv = lv_data[id]?.description;
-  const description_en = en_data[id]?.description;
-  const description_jp = jp_data[id]?.description;
+  
+  const langData = { 'jp': jp_data, 'en': en_data, 'lv': lv_data };
+  
+  const description = langData[language][id]?.description;
 
   function toHtml(value) {
     return ReactHtmlParser(value);
@@ -23,13 +24,7 @@ export default function PersonInfo() {
     return (
       <div>
         <h1 className={styles.h1}>{toHtml(name)}</h1>
-        <p className={styles.p}>{toHtml(description_jp)}</p>
-        <br/>
-        <br/>
-        <p className={styles.p}>{toHtml(description_en)}</p>
-        <br/>
-        <br/>
-        <p className={styles.p}>{toHtml(description_lv)}</p>
+        <p className={styles.p}>{toHtml(description)}</p>
       </div>
     )
   }
