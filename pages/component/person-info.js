@@ -7,7 +7,7 @@ import lv_data from '../../config/lv.json'
 import en_data from '../../config/en.json'
 import jp_data from '../../config/jp.json'
 
-export default function PersonInfo({ language }) {
+export default function PersonInfo({ language = 'jp' }) {
   const router = useRouter();
   const {id} = router.query;
   const name = lv_data[id]?.name;
