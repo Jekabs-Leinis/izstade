@@ -8,20 +8,20 @@ export default function LangPickerWidget({ onLanguageChange }) {
   
   return (
     <div className={styles.langWidgetContainer}>
-      <img src="/images/flag_lv.png"
-           onClick={() => setLanguage('lv')}
+      <img src="/images/flag_jp.png"
+           onClick={() => setLanguage('jp')}
            className={styles.langWidgetFlag}
-           alt={"Flag of Latvia for language selection"}
+           alt={"Flag of Japan for language selection"}
       />
       <img src="/images/flag_uk.png"
            onClick={() => setLanguage('en')}
            className={styles.langWidgetFlag}
            alt={"Flag of United Kingdom for language selection"}
       />
-      <img src="/images/flag_jp.png"
-           onClick={() => setLanguage('jp')}
+      <img src="/images/flag_lv.png"
+           onClick={() => setLanguage('lv')}
            className={styles.langWidgetFlag}
-           alt={"Flag of Japan for language selection"}
+           alt={"Flag of Latvia for language selection"}
       />
     </div>
   )
