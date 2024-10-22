@@ -152,9 +152,8 @@
 }
 
 .langWidgetFlag {
-    width: 48px;
+    aspect-ratio: auto;
     height: 48px;
-    border-radius: 24px;
     border: 1px solid darkgray;
     cursor: pointer;
     margin: 8px 8px 8px 0;
