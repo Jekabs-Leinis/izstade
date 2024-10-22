@@ -1,4 +1,5 @@
 ﻿import classNames from '../../styles/Home.module.css';
+import Image from "next/image";
 
 export default function SocialLinks() {
   return (
@@ -8,7 +9,7 @@ export default function SocialLinks() {
          className={classNames.socialLinkContainer}
          rel="noreferrer"
       >
-        <img
+        <Image
           src="/icon/facebook_white_28dp.png" alt="Facebook"
           className={classNames.socialLink} width="28" height="28"/>
       </a>
@@ -18,7 +19,7 @@ export default function SocialLinks() {
         className={classNames.socialLinkContainer}
         rel="noreferrer"
       >
-        <img
+        <Image
           src="/icon/instagram_white_28dp.png" alt="Instagram"
           className={classNames.socialLink} width="28" height="28"/>
       </a>
@@ -28,7 +29,7 @@ export default function SocialLinks() {
         className={classNames.socialLinkContainer}
         rel="noreferrer"
       >
-        <img
+        <Image
           src="/icon/tiktok_white_28dp.png" alt="TikTok"
           className={classNames.socialLink} width="28" height="28"/>
       </a>
@@ -38,9 +39,10 @@ export default function SocialLinks() {
         className={classNames.socialLinkContainer}
         rel="noreferrer"
       >
-        <img
+        <Image
           src="/icon/spotify_white_28dp.png" alt="Spotify"
-          className={classNames.socialLink} width="28" height="28"/>
+          className={classNames.socialLink} width="28" height="28"
+        />
       </a>
       <a
         href="https://www.youtube.com/channel/UCP8KkpLuSXxwib1medw1r6A"
@@ -48,9 +50,10 @@ export default function SocialLinks() {
         className={classNames.socialLinkContainer}
         rel="noreferrer"
       >
-        <img
+        <Image
           src="/icon/youtube_white_28dp.png" alt="YouTube"
-          className={classNames.socialLink} width="28" height="28"/>
+          className={classNames.socialLink} width="28" height="28"
+        />
       </a>
     </div>
   )
