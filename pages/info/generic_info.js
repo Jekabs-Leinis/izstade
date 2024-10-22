@@ -34,6 +34,8 @@ export default function Home({ info_key }) {
     )
   }
   function toHtml(value) {
+    // If there are 2 consequential tags in the text, the \n symbols between them are ignored.
+    // This is manually fixed on case-by-case basis by inserting '⠀' U+2800 Braille Pattern Blank symbol.
     return ReactHtmlParser(value);
   }
 
