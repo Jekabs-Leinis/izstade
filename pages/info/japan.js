@@ -1,7 +1,11 @@
 ﻿import GenericInfo from './generic_info'
+import SocialLinks from "../component/social-links";
 
 export default function Home() {
     return (
-        <GenericInfo info_key="info_japan"/>
+      <div>
+          <GenericInfo info_key="info_japan"/>
+          <SocialLinks/>
+      </div>
     )
 }
