@@ -11,6 +11,7 @@ import LangPickerWidget from "../component/lang-picker-widget";
 export default function Voice() {
   const router = useRouter();
   const {id} = router.query;
+  const name = lv_data[id]?.name;
   let [language, setLanguage] = React.useState('jp');
 
   useEffect(() => {
@@ -22,8 +23,8 @@ export default function Voice() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>IRu</title>
-        <meta name="description" content="IRu"/>
+        <title>I Ru | {name}</title>
+        <meta name="description" content="I Ru"/>
         <link rel="icon" href="../icon/favicon.ico"/>
       </Head>
       <main className={styles.main}>

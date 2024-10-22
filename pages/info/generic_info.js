@@ -42,8 +42,8 @@ export default function Home({ info_key }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>IRu</title>
-        <meta name="description" content="IRu"/>
+        <title>I Ru | {name}</title>
+        <meta name="description" content="I Ru"/>
         <link rel="icon" href="../icon/favicon.ico"/>
       </Head>
       <LangPickerWidget onLanguageChange={(lang) => setLanguage(lang)}/>

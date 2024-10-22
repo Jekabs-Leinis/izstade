@@ -23,8 +23,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>IRu</title>
-        <meta name="description" content="IRu" />
+        <title>I Ru</title>
+        <meta name="description" content="I Ru" />
         <link rel="icon" href="/icon/favicon.ico" />
       </Head>
 
