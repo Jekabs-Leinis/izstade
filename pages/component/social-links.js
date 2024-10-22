@@ -6,6 +6,7 @@ export default function SocialLinks() {
       <a href="https://www.facebook.com/ChoirBalsis"
          target="_blank"
          className={classNames.socialLinkContainer}
+         rel="noreferrer"
       >
         <img
           src="/icon/facebook_white_28dp.png" alt="Facebook"
@@ -15,6 +16,7 @@ export default function SocialLinks() {
         href="https://www.instagram.com/youthchoirbalsis/"
         target="_blank"
         className={classNames.socialLinkContainer}
+        rel="noreferrer"
       >
         <img
           src="/icon/instagram_white_28dp.png" alt="Instagram"
@@ -24,6 +26,7 @@ export default function SocialLinks() {
         href="https://www.tiktok.com/@youthchoirbalsis"
         target="_blank"
         className={classNames.socialLinkContainer}
+        rel="noreferrer"
       >
         <img
           src="/icon/tiktok_white_28dp.png" alt="TikTok"
@@ -33,14 +36,17 @@ export default function SocialLinks() {
         href="https://open.spotify.com/artist/4Syljz78c4rBwXuh5lFEyj"
         target="_blank"
         className={classNames.socialLinkContainer}
+        rel="noreferrer"
       >
         <img
           src="/icon/spotify_white_28dp.png" alt="Spotify"
           className={classNames.socialLink} width="28" height="28"/>
       </a>
       <a
-        href="https://www.youtube.com/channel/UCP8KkpLuSXxwib1medw1r6A" target="_blank"
+        href="https://www.youtube.com/channel/UCP8KkpLuSXxwib1medw1r6A"
+        target="_blank"
         className={classNames.socialLinkContainer}
+        rel="noreferrer"
       >
         <img
           src="/icon/youtube_white_28dp.png" alt="YouTube"
