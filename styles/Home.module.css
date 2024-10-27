@@ -130,10 +130,20 @@
     white-space: pre-line;
 }
 
+.person {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .sync {
-    padding: 40px 20px 20px 20px;
+    flex-grow: 2;
+    padding-bottom: 16px;
     text-align: center;
     font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .player {

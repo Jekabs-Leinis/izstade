@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import Head from 'next/head'
-import styles from '../../styles/SameLevel.module.css'
+import styles from '../../styles/Home.module.css'
 import SynchronizedBy from "../component/synchronized-by";
 import AudioPlayer from "../component/audio-player";
 import PersonInfo from "../component/person-info";
@@ -21,7 +21,7 @@ export default function Voice() {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>I Ru | {name}</title>
         <meta name="description" content="I Ru"/>
@@ -30,7 +30,7 @@ export default function Voice() {
       <main className={styles.main}>
         {
           Object.keys(lv_data).includes(id)
-            ? (<div>
+            ? (<div className={styles.person}>
               <LangPickerWidget onLanguageChange={(lang) => setLanguage(lang)}/>
               <AudioPlayer/>
               <PersonInfo language={language}/>
