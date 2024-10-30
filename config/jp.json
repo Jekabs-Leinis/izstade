@@ -21,7 +21,7 @@
     "name": "Amika",
     "description": "そばかすに\nタンポポまみれ\nあの夏日",
     "link": "/audio/amika",
-    "symbol": ""
+    "symbol": "日"
   },
   "ance": {
     "name": "Ance",
@@ -93,13 +93,13 @@
     "name": "Haruka",
     "description": "育つ木も\n岸打つ波も\nとこしえに",
     "link": "/audio/haruka",
-    "symbol": ""
+    "symbol": "杲"
   },
   "hikari": {
     "name": "Hikari",
     "description": "冬至の夜\nすぎる時間の\n雪轍",
     "link": "/audio/hikari",
-    "symbol": ""
+    "symbol": "周"
   },
   "ints": {
     "name": "Ints",
@@ -123,7 +123,7 @@
     "name": "Kanna",
     "description": "交差点\n鳥は飛び過ぎ\n人止まる",
     "link": "/audio/kanna",
-    "symbol": ""
+    "symbol": "辻"
   },
   "kate": {
     "name": "Kate",
@@ -165,7 +165,7 @@
     "name": "Maho",
     "description": "八日間\n畝を鋤く\n石またも石",
     "link": "/audio/maho",
-    "symbol": ""
+    "symbol": "星"
   },
   "mara": {
     "name": "Māra",
@@ -177,7 +177,7 @@
     "name": "Mina",
     "description": "青い牧\n話し合う馬\n聞き取れる",
     "link": "/audio/mina",
-    "symbol": ""
+    "symbol": "畜"
   },
   "nora": {
     "name": "Nora",
@@ -213,13 +213,13 @@
     "name": "Ryokei",
     "description": "咲く花に\n包まれて騎る\n男たち",
     "link": "/audio/ryokei",
-    "symbol": ""
+    "symbol": "篝"
   },
   "ryosuke": {
     "name": "Ryosuke",
     "description": "波揺れる\n過去の揺り籠\n瞠る母",
     "link": "/audio/ryosuke",
-    "symbol": ""
+    "symbol": "海"
   },
   "sabrina": {
     "name": "Sabrīna",
@@ -237,7 +237,7 @@
     "name": "Sawako",
     "description": "日のあたる\n庭に月影\nかがめば花",
     "link": "/audio/sawako",
-    "symbol": ""
+    "symbol": "暈"
   },
   "sendija": {
     "name": "Sendija",
@@ -249,19 +249,19 @@
     "name": "Shingo",
     "description": "根に寄り添う\n土の約束\n手に果実",
     "link": "/audio/shingo",
-    "symbol": ""
+    "symbol": "重"
   },
   "shunta": {
     "name": "Shunta",
     "description": "高い木の\n見えぬ梢\n無限大",
     "link": "/audio/shunta",
-    "symbol": ""
+    "symbol": "明"
   },
   "shunya": {
     "name": "Shunya",
     "description": "足が向く\n聖し家路の\n青木立",
     "link": "/audio/shunya",
-    "symbol": ""
+    "symbol": "箒"
   },
   "signe": {
     "name": "Signe",
@@ -279,31 +279,31 @@
     "name": "Sora",
     "description": "咲く牧に\n響く祈りは\n蜜蜂の",
     "link": "/audio/sora",
-    "symbol": ""
+    "symbol": "柱"
   },
   "takashi": {
     "name": "Takashi",
     "description": "日なた石\nどんぐり育て\n雷雨干す",
     "link": "/audio/takashi",
-    "symbol": ""
+    "symbol": "卍"
   },
   "takayuki": {
     "name": "Takayuki",
     "description": "人は道\n蜂は花粉へ\n先駆ける",
     "link": "/audio/takayuki",
-    "symbol": ""
+    "symbol": "馬"
   },
   "tetsuya": {
     "name": "Tetsuya",
     "description": "夜の声\n風の言葉に\n囚われる",
     "link": "/audio/tetsuya",
-    "symbol": ""
+    "symbol": "除"
   },
   "yasuna": {
     "name": "Yasuna",
     "description": "夢の船\n波止場選んで\nふながかる",
     "link": "/audio/yasuna",
-    "symbol": ""
+    "symbol": "蟹"
   },
   "yuraro": {
     "name": "Yuraro",
@@ -315,7 +315,7 @@
     "name": "master",
     "description": "",
     "link": "/audio/master",
-    "symbol": ""
+    "symbol": "元"
   },
   "info_japan": {
     "name": "音の写真展「I Ru」",
