@@ -309,13 +309,13 @@
     "name": "Yuraro",
     "description": "手休めは\n鳥籠の雪\n融けるまで",
     "link": "/audio/yuraro",
-    "symbol": ""
+    "symbol": "元"
   },
   "master": {
     "name": "master",
     "description": "",
     "link": "/audio/master",
-    "symbol": "元"
+    "symbol": ""
   },
   "info_japan": {
     "name": "音の写真展「I Ru」",

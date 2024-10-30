@@ -49,9 +49,9 @@ export default function AudioPlayer() {
                 motion.on("timeupdate", function (e) {
                     // console.log("pos change?", e.pos, e);
 
-                    //548 == 9:08 end of MP3
-                    if (e.pos >= 548) {
-                        motion.update({position:0.0, velocity: 1.0});
+                    //285 sec == 4:45 end of MP3
+                    if (e.pos >= 285) {
+                         motion.update({position:0.0, velocity: 1.0});
                     }
                 });
 
@@ -79,9 +79,7 @@ export default function AudioPlayer() {
     }
 
     function getAudioSource() {
-        //return "/mp3/" + id + ".mp3"
-        //TODO: replace when we have received audio files
-        return "/mp3/master.mp3";
+        return "/mp3/" + id + ".opus"
     }
 
     return (
