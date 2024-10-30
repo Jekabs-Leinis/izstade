@@ -1,272 +1,325 @@
 {
   "aksels": {
     "name": "Aksels",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/aksels"
+    "description": "",
+    "link": "/audio/aksels",
+    "symbol": ""
   },
   "aleksis": {
     "name": "Aleksis",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/aleksis"
+    "description": "Cilvēks ir ceļā\nun bites ziedputekšņos.\nGalvenais – augšā!",
+    "link": "/audio/aleksis",
+    "symbol": ""
   },
   "amanda": {
     "name": "Amanda",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/amanda"
+    "description": "Rokas atpūšas.\nKamēr nokusīs sniegi\nputnubūrīšos.",
+    "link": "/audio/amanda",
+    "symbol": ""
   },
   "amika": {
     "name": "Amika",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/amika"
+    "description": "Dzīvota diena\nar vasaras raibumiem.\nPil pieneņu piens. ",
+    "link": "/audio/amika",
+    "symbol": ""
   },
   "ance": {
     "name": "Ance",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/ance"
+    "description": "",
+    "link": "/audio/ance",
+    "symbol": ""
   },
   "andzela": {
     "name": "Andžela",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/andzela"
+    "description": "",
+    "link": "/audio/andzela",
+    "symbol": ""
   },
   "anete": {
     "name": "Anete",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/anete"
+    "description": "",
+    "link": "/audio/anete",
+    "symbol": ""
   },
   "arvis": {
     "name": "Arvis",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/arvis"
+    "description": "Mūžīgie vēro\nkā ūdens sasniedz krastu, \nkā galotne aug.",
+    "link": "/audio/arvis",
+    "symbol": ""
   },
   "dafne": {
     "name": "Dafne",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/dafne"
+    "description": "Ziedošā pļavā \ndienišķas lūgšanas skan.\nBite medu sūc.\n",
+    "link": "/audio/dafne",
+    "symbol": ""
   },
   "emilija": {
     "name": "Emīlija",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/emilija"
+    "description": "",
+    "link": "/audio/emilija",
+    "symbol": ""
   },
   "emils": {
     "name": "Emīls",
     "description": "Augstākajā kokā\nneredzama galotne.\nKā bezgalība.",
-    "link": "/audio/emils"
+    "link": "/audio/emils",
+    "symbol": ""
   },
   "eliza": {
     "name": "Elīza",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/eliza"
+    "description": "",
+    "link": "/audio/eliza",
+    "symbol": ""
   },
   "elza": {
     "name": "Elza",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/elza"
+    "description": "",
+    "link": "/audio/elza",
+    "symbol": ""
   },
   "georgs": {
     "name": "Georgs",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/georgs"
+    "description": "Akmeņi saulē\nkaltē pērkona lietu,\nizauklē zīles.",
+    "link": "/audio/georgs",
+    "symbol": ""
   },
   "haralds": {
     "name": "Haralds",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/haralds"
+    "description": "",
+    "link": "/audio/haralds",
+    "symbol": ""
   },
   "haruka": {
     "name": "Haruka",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/haruka"
+    "description": "Mūžīgie vēro\nkā ūdens sasniedz krastu, \nkā galotne aug. ",
+    "link": "/audio/haruka",
+    "symbol": ""
   },
   "hikari": {
     "name": "Hikari",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/hikari"
+    "description": "Ziemas svētku nakts\npagriež laiku neredzot.\nSniegā tās pēdas.",
+    "link": "/audio/hikari",
+    "symbol": ""
   },
   "ints": {
     "name": "Ints",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/ints"
+    "description": "Reiz sapņu kuģis\nizvēlējās piekrasti.\nNoenkurojās.",
+    "link": "/audio/ints",
+    "symbol": ""
   },
   "janis": {
     "name": "Jānis",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/janis"
+    "description": "Zieds pie zieda plaukst\nkā vainagu apskāviens.\nVidū vīri jāj.",
+    "link": "/audio/janis",
+    "symbol": ""
   },
   "jekabs": {
     "name": "Jēkabs",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/jekabs"
+    "description": "",
+    "link": "/audio/jekabs",
+    "symbol": ""
   },
   "kanna": {
     "name": "Kanna",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/kanna"
+    "description": "Ceļa vidū krusts,\nputni lido tam pāri.\nTikai cilvēks stāj.",
+    "link": "/audio/kanna",
+    "symbol": ""
   },
   "kate": {
     "name": "Kate",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/kate"
+    "description": "",
+    "link": "/audio/kate",
+    "symbol": ""
   },
   "krista": {
     "name": "Krista",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/krista"
+    "description": "Kājas pašas iet,\nrit svētīts ceļš uz mājām.\nApkārt zaļo birzs.\n",
+    "link": "/audio/krista",
+    "symbol": ""
   },
   "krisjanis": {
     "name": "Krišjānis",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/krisjanis"
+    "description": "Dzīvota diena\nar vasaras raibumiem.\nPil pieneņu piens.",
+    "link": "/audio/krisjanis",
+    "symbol": ""
   },
   "klinta": {
     "name": "Klinta",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/klinta"
+    "description": "",
+    "link": "/audio/klinta",
+    "symbol": ""
   },
   "leticija": {
     "name": "Letīcija",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/leticija"
+    "description": "Vilnis atnesa –\nšūpuli no pagātnes.\nMāte acis ver.",
+    "link": "/audio/leticija",
+    "symbol": ""
   },
   "madara": {
     "name": "Madara",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/madara"
+    "description": "",
+    "link": "/audio/madara",
+    "symbol": ""
   },
   "maho": {
     "name": "Maho",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/maho"
+    "description": "Astoņas dienas\narkls kūpošās vagās.\nAkmens pēc akmens. ",
+    "link": "/audio/maho",
+    "symbol": ""
   },
   "mara": {
     "name": "Māra",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/mara"
+    "description": "Ceļa vidū krusts,\nputni lido tam pāri.\nTikai cilvēks stāj.\n",
+    "link": "/audio/mara",
+    "symbol": ""
   },
   "mina": {
     "name": "Mina",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/mina"
+    "description": "Pļavas vēl zaļas -\ntur zirgi sarunājas.\nDzirdēt var tālu. ",
+    "link": "/audio/mina",
+    "symbol": ""
   },
   "nora": {
     "name": "Nora",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/nora"
+    "description": "Saknei piekļāvies\nzemes vēsais solījums.\nRokā auglis salds.\n",
+    "link": "/audio/nora",
+    "symbol": ""
   },
   "norio": {
     "name": "Norio",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/norio"
+    "description": "",
+    "link": "/audio/norio",
+    "symbol": ""
   },
   "patricija": {
     "name": "Patrīcija",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/patricija"
+    "description": "Ziemas svētku nakts\npagriež laiku neredzot.\nSniegā tās pēdas.\n",
+    "link": "/audio/patricija",
+    "symbol": ""
   },
   "peteris": {
     "name": "Pēteris",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/peteris"
+    "description": "Mēness ēnu met\npār saules pilnu dārzu.\nTuvāk liecos – zieds.",
+    "link": "/audio/peteris",
+    "symbol": ""
   },
   "rudolfs": {
     "name": "Rūdolfs",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/rudolfs"
+    "description": "",
+    "link": "/audio/rudolfs",
+    "symbol": ""
   },
   "ryokei": {
     "name": "Ryokei",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/ryokei"
+    "description": "Zieds pie zieda plaukst\nkā vainagu apskāviens.\nVidū vīri jāj. ",
+    "link": "/audio/ryokei",
+    "symbol": ""
   },
   "ryosuke": {
     "name": "Ryosuke",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/ryosuke"
+    "description": "Vilnis atnesa –\nšūpuli no pagātnes.\nMāte acis ver. ",
+    "link": "/audio/ryosuke",
+    "symbol": ""
   },
   "sabrina": {
     "name": "Sabrīna",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/sabrina"
+    "description": "",
+    "link": "/audio/sabrina",
+    "symbol": ""
   },
   "santa": {
     "name": "Santa",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/santa"
+    "description": "Pļavas vēl zaļas -\ntur zirgi sarunājas.\nDzirdēt var tālu.",
+    "link": "/audio/santa",
+    "symbol": ""
   },
   "sawako": {
     "name": "Sawako",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/sawako"
+    "description": "Mēness ēnu met\npār saules pilnu dārzu.\nTuvāk liecos – zieds. ",
+    "link": "/audio/sawako",
+    "symbol": ""
   },
   "sendija": {
     "name": "Sendija",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/sendija"
+    "description": "",
+    "link": "/audio/sendija",
+    "symbol": ""
   },
   "shingo": {
     "name": "Shingo",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/shingo"
+    "description": "Saknei piekļāvies\nzemes vēsais solījums.\nRokā auglis salds.",
+    "link": "/audio/shingo",
+    "symbol": ""
   },
   "shunta": {
     "name": "Shunta",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/shunta"
+    "description": "Augstākajā kokā\nneredzama galotne.\nKā bezgalība.",
+    "link": "/audio/shunta",
+    "symbol": ""
   },
   "shunya": {
     "name": "Shunya",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/shunya"
+    "description": "Kājas pašas iet,\nrit svētīts ceļš uz mājām.\nApkārt zaļo birzs.",
+    "link": "/audio/shunya",
+    "symbol": ""
   },
   "signe": {
     "name": "Signe",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/signe"
+    "description": "Balsīm pilna nakts,\nvalodas atnes vēji.\nCilvēks – medījums.",
+    "link": "/audio/signe",
+    "symbol": ""
   },
   "sofija": {
     "name": "Sofija",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/sofija"
+    "description": "Astoņas dienas\narkls kūpošās vagās.\nAkmens pēc akmens.",
+    "link": "/audio/sofija",
+    "symbol": ""
   },
   "sora": {
     "name": "Sora",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/sora"
+    "description": "Ziedošā pļavā \ndienišķas lūgšanas skan.\nBite medu sūc.",
+    "link": "/audio/sora",
+    "symbol": ""
   },
   "takashi": {
     "name": "Takashi",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/takashi"
+    "description": "Akmeņi saulē\nkaltē pērkona lietu,\nizauklē zīles. ",
+    "link": "/audio/takashi",
+    "symbol": ""
   },
   "takayuki": {
     "name": "Takayuki",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/takayuki"
+    "description": "Cilvēks ir ceļā\nun bites ziedputekšņos.\nGalvenais – augšā!",
+    "link": "/audio/takayuki",
+    "symbol": ""
   },
   "tetsuya": {
     "name": "Tetsuya",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/tetsuya"
+    "description": "Balsīm pilna nakts,\nvalodas atnes vēji.\nCilvēks – medījums. ",
+    "link": "/audio/tetsuya",
+    "symbol": ""
   },
   "yasuna": {
     "name": "Yasuna",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/yasuna"
+    "description": "Reiz sapņu kuģis\nizvēlējās piekrasti.\nNoenkurojās. ",
+    "link": "/audio/yasuna",
+    "symbol": ""
   },
   "yuraro": {
     "name": "Yuraro",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/yuraro"
+    "description": "Rokas atpūšas.\nKamēr nokusīs sniegi\nputnubūrīšos. ",
+    "link": "/audio/yuraro",
+    "symbol": ""
   },
   "master": {
     "name": "master",
     "description": "",
-    "link": "/audio/master"
+    "link": "/audio/master",
+    "symbol": ""
   },
   "info_japan": {
     "name": "Skanošā fotoizstāde “I Ru”",
-    "description": "Apvienojot skaņas un attēla spēku, radīta skanoša foto izstāde “I Ru”, kura no 5. līdz 9. novembrim apskatāma Higshi Yuenchi Park, Urban Picnic “Lounge” Kano-cho 6-5-1, Chuo-ku, Kobe City\n\nDarba dienās: 11.00-19.00 (pirmdien atvērts no plkst. 16.00 )\nSestdien: 9.00-13.00\n\n<b>Fotogrāfs:</b> Lauris Vīksne - Kopā 37 fotogrāfijas uzņemtas Japānā, Tokijā, no 27. līdz 28. jūlijam un Latvijā, Rīgā no 2. septembra līdz 7. oktobrim. Modeļi: Jauniešu kora BALSIS (Rīga, Latvija) un jauktais koris SCATOLA DI VOCE (Tokija, Japāna) kora dziedātāji. Vairāk par koriem: <a href=\"/info/balsis\">BALSIS</a>  un <a href=\"/info/scatola_di_voce\">SCATOLA DI VOCE.</a>\n\n⠀<b>Izstādē skan:</b> <a href=\"/info/put_vejini\">PŪT, VĒJIŅI!</a>, latviešu tautas dziesma Jurjānu Andreja apdarē un Teiichi Okano un Tatsuyuki Takano dziesma <a href=\"/info/furusato\">FURUSATO</a>.\n\n<b>Dzied:</b> BALSIS un SCATOLA DI VOCE - visi kopā un individuāli. Ieraksti veikti laikā no 2024. gada 1. līdz 30. septembrim Japānā un no 7. līdz 15. oktobrim Latvijā\n\n<b>Simboli:</b> Senās latviešu zīmes gadsimtiem ilgi kalpojušas kā simboliskas nozīmes nesēji, skaidrojot dabas ciešo saikni ar cilvēku. Piemērojams arī praktisks pielietojums, jo tās izmantotas ikdienas priekšmetos, apģērbā un rituālos. Zīmēs iekodētais vēstījums sakņojas baltu mitoloģijā un ir saistīts ar aizsardzību, labklājību, garīgumu. Vairākas no tām pārstāv baltu un latviešu dievības. Pārvarot laika robežas, zīmju simboliskā nozīme joprojām ir dzīva un tiek izmantota rotaslietās un apģērbā, dizainā un arhitektūrā, rituālos un mākslas darbos, pat tetovēšanas mākslā. Tās kļuvušas par nacionālās identitātes simboliem, kas uztur dzīvas tradīcijas, palīdz saglabāt kultūrvēsturisko bagātību un nodod informāciju nākamajām paaudzēm.\n\n<b>Haikas:</b> Veidojot izstādi, Arvis Ostrovskis zīmju un ideogrāfisko rakstzīmju kopumu izteicis vēstījumā – dzejas formā, kas atpazīstama latviešu un japāņu kultūras telpā. Izceļot ritma, filozofisko kontekstu un skaidrojuma slāņus, kas raksturīgs latviešu zīmēm un ideogrammām, haika tradicionālajās 17 zilbēs veido mirkļa liecības, veido visskaidrāko atsauci uz cilvēka un dabas harmonisko saikni, pati kļūst par  zīmi - līdzsvara punktu starp vizuāli parādīto un verbāli izdziedāto. Tā palīdz izskaidrot būtību.\n\n<b>Radošā komanda:</b> idejas autors, BALSIS diriģents Ints Teterovskis, kurators, haiku autors Arvis Ostrovskis, fotogrāfs Lauris Vīksne, projekta vadītāja Emīlija Rūta Ozoliņa, latvisko zīmju eksperts un japāņu valodas tulks Uģis Nastevičs, angļu valodas tulks Ilona Brūveris, skaņu operators Gustavs Erenpreiss, IT sistēmas nodrošinājums Jēkabs Leinis, BALSIS dziedātāji, SCATOLA DI VOCE dziedātāji un vadītāja Yasuna Kondo\n\n<b>IZSTĀDES LIETOŠANAS ROKASGRĀMATA\n\nLai izstādi izbaudītu pilnībā, nepieciešams:</b>\n\nViedtālrunis\n\nInterneta savienojums\n\nQR koda lasītājs*\n\nPie katras fotogrāfijas ir QR kods, kuru aktivizējot Tev ir iespēja dzirdēt attēlā redzamā korista balsi\n\nDziesmu pilnais ieraksts telpā skanēs nepārtraukti un Tevis aktivizētā korista balss skanēs Tavā viedtālrunī, tādēļ vēlams ieslēgt skaņu\n\nParalēli audio, QR kods aktivizē korista vārdu, redzamās zīmes tulkojumu un haiku\n\n* ja rodas problēmas ar viedierīcē iebūvēto lasītāju noskenēt uz fotogrāfijām izvietoto QR kodu, lūgums lejupielādēt jebkuru Google Play vai App Store pieejamo QR kodu lasītāju.\n\nPaldies par ieguldījumu izstādes tapšanā:\n\nRīgas Valstspilsētas pašvaldībai, Kobes Pilsētas domei, Latvijas Investīciju un attīstības aģentūrai un AS “Riga Wood Baltic”.\n\nSīkāka informācija <a href=\"https://www.balsis.lv\">balsis.lv</a>",
+    "description": "Apvienojot skaņas un attēla spēku, radīta skanoša foto izstāde “I Ru”, kura no 5. līdz 9. novembrim apskatāma Higshi Yuenchi Park, Urban Picnic “Lounge” Kano-cho 6-5-1, Chuo-ku, Kobe City\n\nDarba dienās: 11.00-19.00 (pirmdien atvērts no plkst. 16.00 )\nSestdien: 9.00-13.00\n\n<b>Fotogrāfs:</b> Lauris Vīksne - Kopā 37 fotogrāfijas uzņemtas Japānā, Tokijā, no 27. līdz 28. jūlijam un Latvijā, Rīgā no 2. septembra līdz 7. oktobrim. Modeļi: Jauniešu kora BALSIS (Rīga, Latvija) un jauktais koris SCATOLA DI VOCE (Tokija, Japāna) kora dziedātāji. Vairāk par koriem: <a href=/info/balsis>BALSIS</a>  un <a href=/info/scatola_di_voce>SCATOLA DI VOCE.</a>\n\n⠀<b>Izstādē skan:</b> <a href=/info/put_vejini>PŪT, VĒJIŅI!</a>, latviešu tautas dziesma Jurjānu Andreja apdarē un Teiichi Okano un Tatsuyuki Takano dziesma <a href=/info/furusato>FURUSATO</a>.\n\n<b>Dzied:</b> BALSIS un SCATOLA DI VOCE - visi kopā un individuāli. Ieraksti veikti laikā no 2024. gada 1. līdz 30. septembrim Japānā un no 7. līdz 15. oktobrim Latvijā\n\n<b>Simboli:</b> Senās latviešu zīmes gadsimtiem ilgi kalpojušas kā simboliskas nozīmes nesēji, skaidrojot dabas ciešo saikni ar cilvēku. Piemērojams arī praktisks pielietojums, jo tās izmantotas ikdienas priekšmetos, apģērbā un rituālos. Zīmēs iekodētais vēstījums sakņojas baltu mitoloģijā un ir saistīts ar aizsardzību, labklājību, garīgumu. Vairākas no tām pārstāv baltu un latviešu dievības. Pārvarot laika robežas, zīmju simboliskā nozīme joprojām ir dzīva un tiek izmantota rotaslietās un apģērbā, dizainā un arhitektūrā, rituālos un mākslas darbos, pat tetovēšanas mākslā. Tās kļuvušas par nacionālās identitātes simboliem, kas uztur dzīvas tradīcijas, palīdz saglabāt kultūrvēsturisko bagātību un nodod informāciju nākamajām paaudzēm.\n\n<b>Haikas:</b> Veidojot izstādi, Arvis Ostrovskis zīmju un ideogrāfisko rakstzīmju kopumu izteicis vēstījumā – dzejas formā, kas atpazīstama latviešu un japāņu kultūras telpā. Izceļot ritma, filozofisko kontekstu un skaidrojuma slāņus, kas raksturīgs latviešu zīmēm un ideogrammām, haika tradicionālajās 17 zilbēs veido mirkļa liecības, veido visskaidrāko atsauci uz cilvēka un dabas harmonisko saikni, pati kļūst par  zīmi - līdzsvara punktu starp vizuāli parādīto un verbāli izdziedāto. Tā palīdz izskaidrot būtību.\n\n<b>Radošā komanda:</b> idejas autors, BALSIS diriģents Ints Teterovskis, kurators, haiku autors Arvis Ostrovskis, fotogrāfs Lauris Vīksne, projekta vadītāja Emīlija Rūta Ozoliņa, latvisko zīmju eksperts un japāņu valodas tulks Uģis Nastevičs, angļu valodas tulks Ilona Brūveris, skaņu operators Gustavs Erenpreiss, IT sistēmas nodrošinājums Jēkabs Leinis, BALSIS dziedātāji, SCATOLA DI VOCE dziedātāji un vadītāja Yasuna Kondo\n\n<b>IZSTĀDES LIETOŠANAS ROKASGRĀMATA\n\nLai izstādi izbaudītu pilnībā, nepieciešams:</b>\n\nViedtālrunis\n\nInterneta savienojums\n\nQR koda lasītājs*\n\nPie katras fotogrāfijas ir QR kods, kuru aktivizējot Tev ir iespēja dzirdēt attēlā redzamā korista balsi\n\nDziesmu pilnais ieraksts telpā skanēs nepārtraukti un Tevis aktivizētā korista balss skanēs Tavā viedtālrunī, tādēļ vēlams ieslēgt skaņu\n\nParalēli audio, QR kods aktivizē korista vārdu, redzamās zīmes tulkojumu un haiku\n\n* ja rodas problēmas ar viedierīcē iebūvēto lasītāju noskenēt uz fotogrāfijām izvietoto QR kodu, lūgums lejupielādēt jebkuru Google Play vai App Store pieejamo QR kodu lasītāju.\n\nPaldies par ieguldījumu izstādes tapšanā:\n\nRīgas Valstspilsētas pašvaldībai, Kobes Pilsētas domei, Latvijas Investīciju un attīstības aģentūrai un AS “Riga Wood Baltic”.\n\nSīkāka informācija <a href=https://www.balsis.lv>balsis.lv</a>",
     "link": "/info/japan"
   },
   "info_balsis": {
@@ -276,12 +329,12 @@
   },
   "info_scatola_di_voce": {
     "name": "SCATOLA DI VOCE",
-    "description": "SCATOLA DI VOCE ir japāņu jauktais koris, kuru diriģents Jusuke Morita un viņa kolēģi izveidoja 2003. gada pavasarī. Viņu mājvieta ir Saitama, Japānā, un koris piedalās dažādos pasākumos, piemēram, mazos koncertos pilsētas svētkos un skolās, nacionālajos konkursos, kas notiek katru gadu, kā arī rīko koncertus paši.\n\nKora nosaukums \"scatola di voce\" tulkojumā no itāļu valodas nozīmē \"balss kārba\", kas simbolizē viņu ideālo kora skanējumu. Koris tiecas pēc dziedāšanas, kur katra balss saglabā savu personību, taču kopā tās veido izcilu harmoniju, it kā dārgumu kārbu, kas piepildīta ar krāsainām balsīm. \n\nSCATOLA DI VOCE tiecas pēc augstas mākslinieciskās kvalitātes kormūzikā, uzlabojot katra dalībnieka vokālo tehniku, lai sasniegtu ideālu skanējumu. Šis mērķis sniedz prieku ikvienam klausītājam katrā uzstāšanās reizē. Viņu smaidīgās sejas padara kori īpaši lielisku. Repertuāru izvēlas rūpīgi, nezaudējot kvalitāti, un publika to ļoti novērtē. Koris ir izcīnījis Zelta balvu 76. Visjapānas koru konkursā un Zelta balvu 3. Tokijas starptautiskajā koru konkursā. \n\nViņi dara cilvēkus laimīgus ar savu dziedāšanu – tas ir viņu vienkāršais, bet lielais sapnis. Lai šo sapni piepildītu, arī paši koristi izbauda katru uzstāšanos vairāk nekā jebkurš cits.\n",
+    "description": "SCATOLA DI VOCE ir japāņu jauktais koris, kuru diriģents Jusuke Morita un viņa kolēģi izveidoja 2003. gada pavasarī. Viņu mājvieta ir Saitama, Japānā, un koris piedalās dažādos pasākumos, piemēram, mazos koncertos pilsētas svētkos un skolās, nacionālajos konkursos, kas notiek katru gadu, kā arī rīko koncertus paši.\n\nKora nosaukums scatola di voce tulkojumā no itāļu valodas nozīmē balss kārba, kas simbolizē viņu ideālo kora skanējumu. Koris tiecas pēc dziedāšanas, kur katra balss saglabā savu personību, taču kopā tās veido izcilu harmoniju, it kā dārgumu kārbu, kas piepildīta ar krāsainām balsīm. \n\nSCATOLA DI VOCE tiecas pēc augstas mākslinieciskās kvalitātes kormūzikā, uzlabojot katra dalībnieka vokālo tehniku, lai sasniegtu ideālu skanējumu. Šis mērķis sniedz prieku ikvienam klausītājam katrā uzstāšanās reizē. Viņu smaidīgās sejas padara kori īpaši lielisku. Repertuāru izvēlas rūpīgi, nezaudējot kvalitāti, un publika to ļoti novērtē. Koris ir izcīnījis Zelta balvu 76. Visjapānas koru konkursā un Zelta balvu 3. Tokijas starptautiskajā koru konkursā. \n\nViņi dara cilvēkus laimīgus ar savu dziedāšanu – tas ir viņu vienkāršais, bet lielais sapnis. Lai šo sapni piepildītu, arī paši koristi izbauda katru uzstāšanos vairāk nekā jebkurš cits.\n",
     "link": "/info/scatola_di_voce"
   },
   "info_furusato": {
     "name": "FURUSATO",
-    "description": "\"Furusato\" ir viena no nozīmīgākajām dziesmām, ko daudzi japāņi var dziedāt kopā daudzās paaudzēs. Dziedot \"Furusato\", mēs domājam par savām dzimtajām vietām, vecākiem, kuri joprojām ir tur, draugiem, kalniem, jūru, upēm un visām atmiņām, kas tur radušās. 2024. gada sākumā\n Noto reģionu skāra spēcīga zemestrīce. Daudzus cilvēkus ietekmēja šī katastrofa un viņi saskārās ar nopietnām grūtībām. Domājot par šiem cilvēkiem, japāņi parasti dzied \"Furusato\". Ar šīs dziesmas palīdzību japāņi dalās grūtībās un kopīgi lūdz atlabšanu un atjaunošanos.\n\n<b>Dziesmas vārdi</b>\n\nTur piekalnē dzināmies pakaļ zaķiem,\nTur upītē allaž zivis ķērām; \nSapnis ved mani atmiņu lokos,\nUn neaizmirstu es dzimto vietu. \n\nKā manam tēvam un mātei tur klājas?\nKā rit dzīve senajiem draugiem?\nNe lietus, ne vējš nespēj atmiņas kliedēt,\nVienmēr es atceros dzimto vietu.\n\nVisu, kas dzīvē darāms, es veikšu,\nLai reiz mājās atgriezties spētu.\nZaļajā kalnā pie dzidrās upes,\nTur mani sagaidīs dzimtā vieta.\n",
+    "description": "Furusato ir viena no nozīmīgākajām dziesmām, ko daudzi japāņi var dziedāt kopā daudzās paaudzēs. Dziedot Furusato, mēs domājam par savām dzimtajām vietām, vecākiem, kuri joprojām ir tur, draugiem, kalniem, jūru, upēm un visām atmiņām, kas tur radušās. 2024. gada sākumā\n Noto reģionu skāra spēcīga zemestrīce. Daudzus cilvēkus ietekmēja šī katastrofa un viņi saskārās ar nopietnām grūtībām. Domājot par šiem cilvēkiem, japāņi parasti dzied Furusato. Ar šīs dziesmas palīdzību japāņi dalās grūtībās un kopīgi lūdz atlabšanu un atjaunošanos.\n\n<b>Dziesmas vārdi</b>\n\nTur piekalnē dzināmies pakaļ zaķiem,\nTur upītē allaž zivis ķērām; \nSapnis ved mani atmiņu lokos,\nUn neaizmirstu es dzimto vietu. \n\nKā manam tēvam un mātei tur klājas?\nKā rit dzīve senajiem draugiem?\nNe lietus, ne vējš nespēj atmiņas kliedēt,\nVienmēr es atceros dzimto vietu.\n\nVisu, kas dzīvē darāms, es veikšu,\nLai reiz mājās atgriezties spētu.\nZaļajā kalnā pie dzidrās upes,\nTur mani sagaidīs dzimtā vieta.\n",
     "link": "/info/furusato"
   },
   "info_put_vejini": {

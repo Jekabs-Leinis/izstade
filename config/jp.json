@@ -1,277 +1,330 @@
 {
   "aksels": {
     "name": "Aksels",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/aksels"
+    "description": "",
+    "link": "/audio/aksels",
+    "symbol": ""
   },
   "aleksis": {
     "name": "Aleksis",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/aleksis"
+    "description": "人は道\n蜂は花粉へ\n先駆ける",
+    "link": "/audio/aleksis",
+    "symbol": "馬"
   },
   "amanda": {
     "name": "Amanda",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/amanda"
+    "description": "手休めは\n鳥籠の雪\n融けるまで",
+    "link": "/audio/amanda",
+    "symbol": "元"
   },
   "amika": {
     "name": "Amika",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/amika"
+    "description": "そばかすに\nタンポポまみれ\nあの夏日",
+    "link": "/audio/amika",
+    "symbol": ""
   },
   "ance": {
     "name": "Ance",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/ance"
+    "description": "",
+    "link": "/audio/ance",
+    "symbol": ""
   },
   "andzela": {
     "name": "Andžela",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/andzela"
+    "description": "",
+    "link": "/audio/andzela",
+    "symbol": ""
   },
   "anete": {
     "name": "Anete",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/anete"
+    "description": "",
+    "link": "/audio/anete",
+    "symbol": ""
   },
   "arvis": {
     "name": "Arvis",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/arvis"
+    "description": "育つ木も\n岸打つ波も\nとこしえに",
+    "link": "/audio/arvis",
+    "symbol": "杲"
   },
   "dafne": {
     "name": "Dafne",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/dafne"
+    "description": "咲く牧に\n響く祈りは\n蜜蜂の",
+    "link": "/audio/dafne",
+    "symbol": "柱"
   },
   "emilija": {
     "name": "Emīlija",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/emilija"
+    "description": "",
+    "link": "/audio/emilija",
+    "symbol": ""
   },
   "emils": {
     "name": "Emīls",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/emils"
+    "description": "高い木の\n見えぬ梢\n無限大",
+    "link": "/audio/emils",
+    "symbol": "明"
   },
   "eliza": {
     "name": "Elīza",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/eliza"
+    "description": "",
+    "link": "/audio/eliza",
+    "symbol": ""
   },
   "elza": {
     "name": "Elza",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/elza"
+    "description": "",
+    "link": "/audio/elza",
+    "symbol": ""
   },
   "georgs": {
     "name": "Georgs",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/georgs"
+    "description": "日なた石\nどんぐり育て\n雷雨干す",
+    "link": "/audio/georgs",
+    "symbol": "卍"
   },
   "haralds": {
     "name": "Haralds",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/haralds"
+    "description": "",
+    "link": "/audio/haralds",
+    "symbol": ""
   },
   "haruka": {
     "name": "Haruka",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/haruka"
+    "description": "育つ木も\n岸打つ波も\nとこしえに",
+    "link": "/audio/haruka",
+    "symbol": ""
   },
   "hikari": {
     "name": "Hikari",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/hikari"
+    "description": "冬至の夜\nすぎる時間の\n雪轍",
+    "link": "/audio/hikari",
+    "symbol": ""
   },
   "ints": {
     "name": "Ints",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/ints"
+    "description": "夢の船\n波止場選んで\nふながかる",
+    "link": "/audio/ints",
+    "symbol": "蟹"
   },
   "janis": {
     "name": "Jānis",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/janis"
+    "description": "咲く花に\n包まれて騎る\n男たち",
+    "link": "/audio/janis",
+    "symbol": "篝"
   },
   "jekabs": {
     "name": "Jēkabs",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/jekabs"
+    "description": "",
+    "link": "/audio/jekabs",
+    "symbol": ""
   },
   "kanna": {
     "name": "Kanna",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/kanna"
+    "description": "交差点\n鳥は飛び過ぎ\n人止まる",
+    "link": "/audio/kanna",
+    "symbol": ""
   },
   "kate": {
     "name": "Kate",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/kate"
+    "description": "",
+    "link": "/audio/kate",
+    "symbol": ""
   },
   "krista": {
     "name": "Krista",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/krista"
+    "description": "足が向く\n聖し家路の\n青木立",
+    "link": "/audio/krista",
+    "symbol": "箒"
   },
   "krisjanis": {
     "name": "Krišjānis",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/krisjanis"
+    "description": "そばかすに\nタンポポまみれ\nあの夏日",
+    "link": "/audio/krisjanis",
+    "symbol": "日"
   },
   "klinta": {
     "name": "Klinta",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/klinta"
+    "description": "",
+    "link": "/audio/klinta",
+    "symbol": ""
   },
   "leticija": {
     "name": "Letīcija",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/leticija"
+    "description": "波揺れる\n過去の揺り籠\n瞠る母",
+    "link": "/audio/leticija",
+    "symbol": "海"
   },
   "madara": {
     "name": "Madara",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/madara"
+    "description": "",
+    "link": "/audio/madara",
+    "symbol": ""
   },
   "maho": {
     "name": "Maho",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/maho"
+    "description": "八日間\n畝を鋤く\n石またも石",
+    "link": "/audio/maho",
+    "symbol": ""
   },
   "mara": {
     "name": "Māra",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/mara"
+    "description": "交差点\n鳥は飛び過ぎ\n人止まる",
+    "link": "/audio/mara",
+    "symbol": "辻"
   },
   "mina": {
     "name": "Mina",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/mina"
+    "description": "青い牧\n話し合う馬\n聞き取れる",
+    "link": "/audio/mina",
+    "symbol": ""
   },
   "nora": {
     "name": "Nora",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/nora"
+    "description": "根に寄り添う\n土の約束\n手に果実",
+    "link": "/audio/nora",
+    "symbol": "重"
   },
   "norio": {
     "name": "Norio",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/norio"
+    "description": "",
+    "link": "/audio/norio",
+    "symbol": ""
   },
   "patricija": {
     "name": "Patrīcija",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/patricija"
+    "description": "冬至の夜\nすぎる時間の\n雪轍",
+    "link": "/audio/patricija",
+    "symbol": "周"
   },
   "peteris": {
     "name": "Pēteris",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/peteris"
+    "description": "日のあたる\n庭に月影\nかがめば花",
+    "link": "/audio/peteris",
+    "symbol": "暈"
   },
   "rudolfs": {
     "name": "Rūdolfs",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/rudolfs"
+    "description": "",
+    "link": "/audio/rudolfs",
+    "symbol": ""
   },
   "ryokei": {
     "name": "Ryokei",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/ryokei"
+    "description": "咲く花に\n包まれて騎る\n男たち",
+    "link": "/audio/ryokei",
+    "symbol": ""
   },
   "ryosuke": {
     "name": "Ryosuke",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/ryosuke"
+    "description": "波揺れる\n過去の揺り籠\n瞠る母",
+    "link": "/audio/ryosuke",
+    "symbol": ""
   },
   "sabrina": {
     "name": "Sabrīna",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/sabrina"
+    "description": "",
+    "link": "/audio/sabrina",
+    "symbol": ""
   },
   "santa": {
     "name": "Santa",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/santa"
+    "description": "青い牧\n話し合う馬\n聞き取れる",
+    "link": "/audio/santa",
+    "symbol": "畜"
   },
   "sawako": {
     "name": "Sawako",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/sawako"
+    "description": "日のあたる\n庭に月影\nかがめば花",
+    "link": "/audio/sawako",
+    "symbol": ""
   },
   "sendija": {
     "name": "Sendija",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/sendija"
+    "description": "",
+    "link": "/audio/sendija",
+    "symbol": ""
   },
   "shingo": {
     "name": "Shingo",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/shingo"
+    "description": "根に寄り添う\n土の約束\n手に果実",
+    "link": "/audio/shingo",
+    "symbol": ""
   },
   "shunta": {
     "name": "Shunta",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/shunta"
+    "description": "高い木の\n見えぬ梢\n無限大",
+    "link": "/audio/shunta",
+    "symbol": ""
   },
   "shunya": {
     "name": "Shunya",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/shunya"
+    "description": "足が向く\n聖し家路の\n青木立",
+    "link": "/audio/shunya",
+    "symbol": ""
   },
   "signe": {
     "name": "Signe",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/signe"
+    "description": "夜の声\n風の言葉に\n囚われる",
+    "link": "/audio/signe",
+    "symbol": "除"
   },
   "sofija": {
     "name": "Sofija",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/sofija"
+    "description": "八日間\n畝を鋤く\n石またも石",
+    "link": "/audio/sofija",
+    "symbol": "星"
   },
   "sora": {
     "name": "Sora",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/sora"
+    "description": "咲く牧に\n響く祈りは\n蜜蜂の",
+    "link": "/audio/sora",
+    "symbol": ""
   },
   "takashi": {
     "name": "Takashi",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/takashi"
+    "description": "日なた石\nどんぐり育て\n雷雨干す",
+    "link": "/audio/takashi",
+    "symbol": ""
   },
   "takayuki": {
     "name": "Takayuki",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/takayuki"
+    "description": "人は道\n蜂は花粉へ\n先駆ける",
+    "link": "/audio/takayuki",
+    "symbol": ""
   },
   "tetsuya": {
     "name": "Tetsuya",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/tetsuya"
+    "description": "夜の声\n風の言葉に\n囚われる",
+    "link": "/audio/tetsuya",
+    "symbol": ""
   },
   "yasuna": {
     "name": "Yasuna",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/yasuna"
+    "description": "夢の船\n波止場選んで\nふながかる",
+    "link": "/audio/yasuna",
+    "symbol": ""
   },
   "yuraro": {
     "name": "Yuraro",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": "/audio/yuraro"
+    "description": "手休めは\n鳥籠の雪\n融けるまで",
+    "link": "/audio/yuraro",
+    "symbol": ""
   },
   "master": {
     "name": "master",
     "description": "",
-    "link": "/audio/master"
+    "link": "/audio/master",
+    "symbol": ""
   },
   "info_japan": {
     "name": "音の写真展「I Ru」",
-    "description": "音と絵の力を融合させた写真展が11月5日から9日まで神戸市会中央区加納町6-4-1東遊園地URBAN PICNIC「ラウンジ」にて開催。\n\n平日：11:00～19:00（※初日は16:00～）\n土曜：09:00～13:00\n\n<b>写真家：</b>ラウリス・ヴィークスネ。7月27日から28日まで日本の東京で、9月2日から10月7日までラトビアのリーガで撮影された合計37枚の写真。モデル：青年合唱団BALSIS(ラトビア、リーガ) と混声合唱団SCATOLA DI VOCE(日本、東京) の歌手たち。各合唱団について詳しくは、「<a href=\"/info/balsis\">BALSIS</a>」と「<a href=\"/info/scatola_di_voce\">SCATOLA DI VOCE</a>」をご覧ください。\n\n<b>本展</b>では、ラトビア民謡「<a href=\"/info/put_vejini\">吹け風よ</a>」のアンドレイス・ユルヤーンス編曲と、岡野貞一と高野辰之による「<a href=\"/info/furusato\">ふるさと</a>」が響きます。\n\n<b>歌い手：</b>「BALSIS」と「SCATOLA DI VOCE」の全員と個別に各員。日本で2024年9月1日から30日まで、ラトビアで10月7日から15日まで録音されました。\n\n<b>象徴：</b>古来のラトビア文様は、何世紀にもわたって、自然と人間の密接な関係を解説する象徴的な意味を担うものとして機能してきました。日用品、衣服、儀式などに使用されるため、実用的な応用も可能です。ラトビア文様に籠められたメッセージはバルト神話に根ざしており、保護、幸福、精神性に関連しています。そのうちの一部は、土着のラトビア神道の神々を表しています。時代の境界を超えて、記号の象徴的な意味は今も生きており、宝飾品や衣服、デザインや建築、儀式、芸術作品やタトゥーの芸術にも活用されています。それらは、伝統を活かし、文化的で歴史的な富を保存し、情報を次世代に伝えるのに役立つ国民アイデンティティの象徴となっています。\n\n<b>俳句：</b>本展の制作中、アルヴィス・オストロヴスキスは、一連の文様と表意文字を、ラトビアと日本の文化空間で認識される詩の形にして表現しました。ラトビア文様と漢字に特徴的なリズム、哲学的背景と解説の層を強調することで、伝統的な17拍の俳句は瞬間の証を作成して、人間と自然の間の調和のとれたつながりを明示するものとなります。視覚的に示されるものと口頭で歌われるものの間のこの均衡点は、要点を説明するのに役立ちます。\n\n<b>クリエイティブチーム：</b>発想者で「BALSIS」の指揮者のインツ・テテロヴスキス、キュレーターで俳句作家のアルヴィス・オストロヴスキス、写真家のラウリス・ヴィークスネ、企画主任のエミーリヤ・ルータ・ウアズアリニャ、ラトビア文様専門家で日本語翻訳家のウギス・ナステビッチ、英語翻訳家のイローナ・ブルーヴェリス、音響監督のグスタヴス・エーレンプレイッス、IT担当者のヤーカブス・レイニス、「BALSIS」の歌手たち、「SCATOLA DI VOCE」の歌手たち及び団長の近藤恭奈。\n\n<b>本展のご案内\n\n本展を十分に楽しむためには、次のものが必要です。</b>\n\n　スマートデバイス\n\n　インターネット接続\n\n　QRコードリーダー（※）\n\n各写真にはQR コードが付いており、QR コードを読み取ると、写真に写る歌手の声を聞くことができます。\n\n全員による録音が室内で継続的に再生され、選択した歌手の声がスマートデバイスで鳴りますので、音量調整をご確認ください。\n\nQR コードは音源と共に、歌手の名前、その文様と俳句の翻訳を表示します。\n\n※写真に付いているQRコードを読み取るスマートデバイスのリーダーに問題がある場合は、Google PlayまたはApp Storeで入手可能なQRコードリーダーをダウンロードしてください。\n\n本展には、リーガ市議会、神戸市会、ラトビア投資開発庁、株式会社「Riga Wood Baltic」のご協力いただきありがとうございます。\n\n詳しくは、<a href=\"https://www.balsis.lv\">balsis.lv</a> をご覧ください。\n",
+    "description": "音と絵の力を融合させた写真展が11月5日から9日まで神戸市会中央区加納町6-4-1東遊園地URBAN PICNIC「ラウンジ」にて開催。\n\n平日：11:00～19:00（※初日は16:00～）\n土曜：09:00～13:00\n\n<b>写真家：</b>ラウリス・ヴィークスネ。7月27日から28日まで日本の東京で、9月2日から10月7日までラトビアのリーガで撮影された合計37枚の写真。モデル：青年合唱団BALSIS(ラトビア、リーガ) と混声合唱団SCATOLA DI VOCE(日本、東京) の歌手たち。各合唱団について詳しくは、「<a href=/info/balsis>BALSIS</a>」と「<a href=/info/scatola_di_voce>SCATOLA DI VOCE</a>」をご覧ください。\n\n<b>本展</b>では、ラトビア民謡「<a href=/info/put_vejini>吹け風よ</a>」のアンドレイス・ユルヤーンス編曲と、岡野貞一と高野辰之による「<a href=/info/furusato>ふるさと</a>」が響きます。\n\n<b>歌い手：</b>「BALSIS」と「SCATOLA DI VOCE」の全員と個別に各員。日本で2024年9月1日から30日まで、ラトビアで10月7日から15日まで録音されました。\n\n<b>象徴：</b>古来のラトビア文様は、何世紀にもわたって、自然と人間の密接な関係を解説する象徴的な意味を担うものとして機能してきました。日用品、衣服、儀式などに使用されるため、実用的な応用も可能です。ラトビア文様に籠められたメッセージはバルト神話に根ざしており、保護、幸福、精神性に関連しています。そのうちの一部は、土着のラトビア神道の神々を表しています。時代の境界を超えて、記号の象徴的な意味は今も生きており、宝飾品や衣服、デザインや建築、儀式、芸術作品やタトゥーの芸術にも活用されています。それらは、伝統を活かし、文化的で歴史的な富を保存し、情報を次世代に伝えるのに役立つ国民アイデンティティの象徴となっています。\n\n<b>俳句：</b>本展の制作中、アルヴィス・オストロヴスキスは、一連の文様と表意文字を、ラトビアと日本の文化空間で認識される詩の形にして表現しました。ラトビア文様と漢字に特徴的なリズム、哲学的背景と解説の層を強調することで、伝統的な17拍の俳句は瞬間の証を作成して、人間と自然の間の調和のとれたつながりを明示するものとなります。視覚的に示されるものと口頭で歌われるものの間のこの均衡点は、要点を説明するのに役立ちます。\n\n<b>クリエイティブチーム：</b>発想者で「BALSIS」の指揮者のインツ・テテロヴスキス、キュレーターで俳句作家のアルヴィス・オストロヴスキス、写真家のラウリス・ヴィークスネ、企画主任のエミーリヤ・ルータ・ウアズアリニャ、ラトビア文様専門家で日本語翻訳家のウギス・ナステビッチ、英語翻訳家のイローナ・ブルーヴェリス、音響監督のグスタヴス・エーレンプレイッス、IT担当者のヤーカブス・レイニス、「BALSIS」の歌手たち、「SCATOLA DI VOCE」の歌手たち及び団長の近藤恭奈。\n\n<b>本展のご案内\n\n本展を十分に楽しむためには、次のものが必要です。</b>\n\n　スマートデバイス\n\n　インターネット接続\n\n　QRコードリーダー（※）\n\n各写真にはQR コードが付いており、QR コードを読み取ると、写真に写る歌手の声を聞くことができます。\n\n全員による録音が室内で継続的に再生され、選択した歌手の声がスマートデバイスで鳴りますので、音量調整をご確認ください。\n\nQR コードは音源と共に、歌手の名前、その文様と俳句の翻訳を表示します。\n\n※写真に付いているQRコードを読み取るスマートデバイスのリーダーに問題がある場合は、Google PlayまたはApp Storeで入手可能なQRコードリーダーをダウンロードしてください。\n\n本展には、リーガ市議会、神戸市会、ラトビア投資開発庁、株式会社「Riga Wood Baltic」のご協力いただきありがとうございます。\n\n詳しくは、<a href=https://www.balsis.lv>balsis.lv</a> をご覧ください。",
     "link": "/info/japan"
   },
   "info_balsis": {
     "name": "BALSIS",
-    "description": "37 年以上にわたり、青年合唱団バルスィス（1987年設立）はその揺るぎない芸術的品質を証明し、ラトビア内外で高い評価を獲得してきた。27の国際的な賞が物語っているように、この合唱団のアカペラ合唱音楽に対する創造的なアプローチにより、あらゆるコンサートがイベントになる。バルスィスは、欧州から日本、中国、豪州、米国までラトビアの合唱音楽を演奏してきた。\n\n合唱団は、都市および国立の音楽堂、国際合唱祭やコンクール（例えば、2012年のスウェーデンのルンド合唱祭、2015年の中国マカオの世界合唱博覧会、2004年及び2017年の欧州合唱グランプリ、2024年の第39回宝塚国際室内合唱コンクールや第6回東京国際合唱コンクールなど）をはじめ、ザ・キングス・シンガーズ（2008年）やVoces8（2022年）など世界的に有名なアンサンブルと共演している。\n\nバルスィスは、孤児院の子供たちや特別な支援が必要な人々の支援に特に注意を払い、数多くの慈善活動や社会的プロジェクト（ラトビアの「あたたかいクリスマス」、「世界を贈ろう」、手話の「バルスィス」など)を実施。\n\nカリスマ指揮者のインツ・テテロヴスキスは、全ラトビア歌の祭典の主任指揮者でもあり、25 年以上にわたりバルスィスを率いる。彼の指導下、合唱団は12 枚以上のアルバムを録音し、毎年約70 回のコンサートを行っている。合唱曲のジャンルに注意を払いながら、定期的に作曲家に新作を奨励する。バルスィスは実験的で現代的な企画に参加するだけでなく、市場、駅、プール、豪華客船、川沿いの野外など、珍しい場所でパフォーマンスを行うことも好む。\n",
+    "description": "37 年以上にわたり、青年合唱団バルスィス（1987年設立）はその揺るぎない芸術的品質を証明し、ラトビア内外で高い評価を獲得してきた。27の国際的な賞が物語っているように、この合唱団のアカペラ合唱音楽に対する創造的なアプローチにより、あらゆるコンサートがイベントになる。バルスィスは、欧州から日本、中国、豪州、米国までラトビアの合唱音楽を演奏してきた。\n\n合唱団は、都市および国立の音楽堂、国際合唱祭やコンクール（例えば、2012年のスウェーデンのルンド合唱祭、2015年の中国マカオの世界合唱博覧会、2004年及び2017年の欧州合唱グランプリ、2024年の第39回宝塚国際室内合唱コンクールや第6回東京国際合唱コンクールなど）をはじめ、ザ・キングス・シンガーズ（2008年）やVoces8（2022年）など世界的に有名なアンサンブルと共演している。\n\nバルスィスは、孤児院の子供たちや特別な支援が必要な人々の支援に特に注意を払い、数多くの慈善活動や社会的プロジェクト（ラトビアの「あたたかいクリスマス」、「世界を贈ろう」、手話の「バルスィス」など)を実施。\n\nカリスマ指揮者のインツ・テテロヴスキスは、全ラトビア歌の祭典の主任指揮者でもあり、25 年以上にわたりバルスィスを率いる。彼の指導下、合唱団は12 枚以上のアルバムを録音し、毎年約70 回のコンサートを行っている。合唱曲のジャンルに注意を払いながら、定期的に作曲家に新作を奨励する。バルスィスは実験的で現代的な企画に参加するだけでなく、市場、駅、プール、豪華客船、川沿いの野外など、珍しい場所でパフォーマンスを行うことも好む。",
     "link": "/info/balsis"
   },
   "info_scatola_di_voce": {
@@ -281,7 +334,7 @@
   },
   "info_furusato": {
     "name": "ふるさと",
-    "description": "「ふるさと」は世代を超えて多くの日本人が一緒に歌うことができる数少ない曲の一つで、とても大切な歌です。「ふるさと」を歌うと、私達は自分の故郷に思いを馳せます。そして故郷にいる父母、友人たち、山や海、川などの自然、そしてそこであったたくさんの思い出も。2024年正月、大きな地震を能登地方を襲いました。そこで多くの人たちが被災し困難に立ち向かっています。そういった人たちを思う時、やはり「ふるさと」を歌います。「ふるさと」という歌を通して困難を共有し、復興をともに願うのです。そういう意味では、ラトビアの「吹け風よ」と同じような意味をもつ歌なのかもしれません。\n\n兎追いし 彼の山\n小鮒釣りし 彼の川\n夢は今も 巡りて\n忘れ難き 故郷\n\n如何にいます 父母\n恙無しや 友がき\n雨に風に つけても\n思い出づる 故郷\n\n志を 果たして\nいつの日にか 帰らん\n山は青き 故郷\n水は清き 故郷\n",
+    "description": "「ふるさと」は世代を超えて多くの日本人が一緒に歌うことができる数少ない曲の一つで、とても大切な歌です。「ふるさと」を歌うと、私達は自分の故郷に思いを馳せます。そして故郷にいる父母、友人たち、山や海、川などの自然、そしてそこであったたくさんの思い出も。2024年正月、大きな地震を能登地方を襲いました。そこで多くの人たちが被災し困難に立ち向かっています。そういった人たちを思う時、やはり「ふるさと」を歌います。「ふるさと」という歌を通して困難を共有し、復興をともに願うのです。そういう意味では、ラトビアの「吹け風よ」と同じような意味をもつ歌なのかもしれません。\n\n兎追いし 彼の山\n小鮒釣りし 彼の川\n夢は今も 巡りて\n忘れ難き 故郷\n\n如何にいます 父母\n恙無しや 友がき\n雨に風に つけても\n思い出づる 故郷\n\n志を 果たして\nいつの日にか 帰らん\n山は青き 故郷\n水は清き 故郷",
     "link": "/info/furusato"
   },
   "info_put_vejini": {

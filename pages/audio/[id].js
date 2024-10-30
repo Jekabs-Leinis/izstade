@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import Head from 'next/head'
 import styles from '../../styles/Home.module.css'
 import SynchronizedBy from "../component/synchronized-by";
@@ -6,19 +6,10 @@ import AudioPlayer from "../component/audio-player";
 import PersonInfo from "../component/person-info";
 import lv_data from '../../config/lv.json'
 import {useRouter} from "next/router";
-import LangPickerWidget from "../component/lang-picker-widget";
-
 export default function Voice() {
   const router = useRouter();
   const {id} = router.query;
   const name = lv_data[id]?.name;
-  let [language, setLanguage] = React.useState('jp');
-
-  useEffect(() => {
-    if (localStorage.getItem('lang')) {
-      setLanguage(localStorage.getItem('lang'));
-    }
-  }, []);
 
   return (
     <div>
@@ -31,9 +22,8 @@ export default function Voice() {
         {
           Object.keys(lv_data).includes(id)
             ? (<div className={styles.person}>
-              <LangPickerWidget onLanguageChange={(lang) => setLanguage(lang)}/>
               <AudioPlayer/>
-              <PersonInfo language={language}/>
+              <PersonInfo/>
               <SynchronizedBy/>
             </div>)
             : (<p className={styles.p}>The site that you are looking for doesn&apos;t exist</p>)
