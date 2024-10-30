@@ -17,6 +17,8 @@ export default function Voice() {
         <title>I Ru | {name}</title>
         <meta name="description" content="I Ru"/>
         <link rel="icon" href="../icon/favicon.ico"/>
+        <script src={"https://www.mcorp.no/lib/mcorp-2.0.js"} />
+        <script src={"https://mcorp.no/lib/mediasync.js"} />
       </Head>
       <main className={styles.main}>
         {

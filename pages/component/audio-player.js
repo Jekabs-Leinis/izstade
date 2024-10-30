@@ -4,96 +4,77 @@ import styles from "../../styles/Home.module.css";
 import Image from "next/image"
 
 export default function AudioPlayer() {
-    const router = useRouter();
-    const {id} = router.query;
-    const [isPlaying, setIsPlaying] = useState(false);
-    let player;
-    let audioSync;
+  const router = useRouter();
+  let player = React.createRef();
+  const {id} = router.query;
+  const [isPlaying, setIsPlaying] = useState(false);
+  let audioSync;
 
-    useEffect(() => {
-        // console.log("page loaded", id, isPlaying);
-        if (id && isPlaying) {
-            startMcorpApp();
+  useEffect(() => {
+    // console.log("page loaded", id, isPlaying);
+    if (id && isPlaying) {
+      startMcorpApp();
 
-            window.onfocus = () => {
-                if (player) {
-                    player.volume = 1;
-                }
-            };
-
-            window.onblur = () => {
-                if (player) {
-                    player.volume = 0;
-                }
-            };
+      window.onfocus = () => {
+        if (player.current) {
+          player.current.volume = 1;
         }
+      };
 
-        return () => {
-            audioSync?.stop();
-            player?.pause();
+      window.onblur = () => {
+        if (player.current) {
+          player.current.volume = 1;
         }
-    }, [id, isPlaying]);
-
-    function startMcorpApp() {
-        let aScript = document.createElement('script');
-        aScript.type = "text/javascript";
-        aScript.src = "https://www.mcorp.no/lib/mcorp-2.0.js";
-
-        document.head.appendChild(aScript);
-        aScript.onload = () => {
-            let app = MCorp.app("5091800104256110023", {anon: true});
-            app.run = function () {
-                let motion = app.motions["iru-master"];
-                motion.update({velocity: 1.0});
-
-                motion.on("timeupdate", function (e) {
-                    // console.log("pos change?", e.pos, e);
-
-                    //285 sec == 4:45 end of MP3
-                    if (e.pos >= 285) {
-                         motion.update({position:0.0, velocity: 1.0});
-                    }
-                });
-
-                startSync(motion);
-            };
-            app.init();
-        };
+      };
     }
 
-    function startPlaying() {
-        setIsPlaying(true);
+    return () => {
+      audioSync?.stop();
+      player.current?.pause();
     }
+  }, [id, isPlaying]);
 
-    function startSync(motion) {
-        let mediaSyncScript = document.createElement("script");
-        mediaSyncScript.type = "text/javascript";
-        mediaSyncScript.src = "https://mcorp.no/lib/mediasync.js";
+  function startMcorpApp() {
+    let app = MCorp.app("5091800104256110023", {anon: true});
+    app.run = function () {
+      let motion = app.motions["iru-master"];
+      motion.update({velocity: 1.0});
 
-        document.head.appendChild(mediaSyncScript);
+      motion.on("timeupdate", function (e) {
+        // console.log("pos change?", e.pos, e);
 
-        mediaSyncScript.onload = () => {
-            player = document.getElementById("player");
-            audioSync = MCorp.mediaSync(player, motion);
-        };
-    }
+        //285 sec == 4:45 end of MP3
+        if (e.pos >= 285) {
+          motion.update({position: 0.0, velocity: 1.0});
+        }
+      });
 
-    function getAudioSource() {
-        return "/mp3/" + id + ".opus"
-    }
+      startSync(motion);
+    };
+    app.init();
+  }
 
-    return (
-        <div className={styles.player}>
-            {isPlaying ?
-                <audio id="player" controls>
-                    <source id="audio" src={getAudioSource()} type="audio/mpeg"/>
-                    Your browser does not support audio
-                </audio>
-                :
-                <div>
-                    <Image className={styles.playBtn} onClick={() => startPlaying()} src="/icon/play_btn.png" alt="me" width="200%" height="200%" />
-                </div>
-            }
+  function startSync(motion) {
+    audioSync = MCorp.mediaSync(player.current, motion);
+  }
+
+  function getAudioSource() {
+    return "/mp3/" + id + ".opus"
+  }
+
+  return (
+    <div className={styles.player}>
+      {isPlaying ?
+        <audio id="player" ref={player} controls>
+          <source id="audio" src={getAudioSource()} type="audio/mpeg"/>
+          Your browser does not support audio
+        </audio>
+        :
+        <div>
+          <Image className={styles.playBtn} onClick={() => setIsPlaying(true)} src="/icon/play_btn.png" alt="me"
+                 width="200%" height="200%"/>
         </div>
-    )
+      }
+    </div>
+  )
 };
