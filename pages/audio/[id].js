@@ -6,7 +6,7 @@ import AudioPlayer from "../component/audio-player";
 import PersonInfo from "../component/person-info";
 import lv_data from '../../config/lv.json'
 import {useRouter} from "next/router";
-import Script from "next/script";
+
 export default function Voice() {
   const router = useRouter();
   const {id} = router.query;
@@ -18,8 +18,8 @@ export default function Voice() {
         <title>I Ru | {name}</title>
         <meta name="description" content="I Ru"/>
         <link rel="icon" href="../icon/favicon.ico"/>
-        <Script src={"https://www.mcorp.no/lib/mcorp-2.0.js"} />
-        <Script src={"https://mcorp.no/lib/mediasync.js"} />
+        <script src={"https://www.mcorp.no/lib/mcorp-2.0.js"} async />
+        <script src={"https://mcorp.no/lib/mediasync.js"} async />
       </Head>
       <main className={styles.main}>
         {
