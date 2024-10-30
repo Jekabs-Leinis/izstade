@@ -22,7 +22,7 @@ export default function PersonInfo({language = 'jp'}) {
 
   const formattedParagraphs = paragraphs.map(
     (paragraph) => (
-      <p className={styles.p}>
+      <p className={styles.p} key={paragraph}>
         {paragraph}
       </p>
     ));
