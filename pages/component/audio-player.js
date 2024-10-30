@@ -17,13 +17,13 @@ export default function AudioPlayer() {
 
       window.onfocus = () => {
         if (player.current) {
-          player.current.volume = 1;
+         // player.current.volume = 1;
         }
       };
 
       window.onblur = () => {
         if (player.current) {
-          player.current.volume = 1;
+         // player.current.volume = 1;
         }
       };
     }
