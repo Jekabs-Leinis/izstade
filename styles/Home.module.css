@@ -189,3 +189,13 @@
 .socialLink {
     margin: 2px !important;
 }
+
+.latvianSign {
+    width: 96px;
+    margin: -16px;
+}
+
+.japaneseSign {
+    font-size: 48px;
+    margin-top: 16px;
+}

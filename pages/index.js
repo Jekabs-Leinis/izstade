@@ -6,6 +6,7 @@ import lv_data from '../config/lv.json'
 
 export default function Home() {
   const keys = Object.keys(lv_data)
+    .filter(name => name === 'master' || lv_data[name].description !== "");
 
   function personButton(id) {
     const name = lv_data[id].name;

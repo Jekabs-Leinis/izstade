@@ -3,319 +3,372 @@
     "name": "Aksels",
     "description": "",
     "link": "/audio/aksels",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "aleksis": {
     "name": "Aleksis",
     "description": "Cilvēks ir ceļā\nun bites ziedputekšņos.\nGalvenais – augšā!",
     "link": "/audio/aleksis",
-    "symbol": ""
+    "symbol": "usins",
+    "symbolDescription": "Ūsiņš"
   },
   "amanda": {
     "name": "Amanda",
     "description": "Rokas atpūšas.\nKamēr nokusīs sniegi\nputnubūrīšos.",
     "link": "/audio/amanda",
-    "symbol": ""
+    "symbol": "metenu_zime",
+    "symbolDescription": "Meteņu zīme"
   },
   "amika": {
     "name": "Amika",
     "description": "Dzīvota diena\nar vasaras raibumiem.\nPil pieneņu piens. ",
     "link": "/audio/amika",
-    "symbol": ""
+    "symbol": "saules_zime",
+    "symbolDescription": "Saules zīme"
   },
   "ance": {
     "name": "Ance",
     "description": "",
     "link": "/audio/ance",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "andzela": {
     "name": "Andžela",
     "description": "",
     "link": "/audio/andzela",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "anete": {
     "name": "Anete",
     "description": "",
     "link": "/audio/anete",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "arvis": {
     "name": "Arvis",
     "description": "Mūžīgie vēro\nkā ūdens sasniedz krastu, \nkā galotne aug.",
     "link": "/audio/arvis",
-    "symbol": ""
+    "symbol": "austras_koks",
+    "symbolDescription": "Austras koks"
   },
   "dafne": {
     "name": "Dafne",
     "description": "Ziedošā pļavā \ndienišķas lūgšanas skan.\nBite medu sūc.\n",
     "link": "/audio/dafne",
-    "symbol": ""
+    "symbol": "saulotais_stabs",
+    "symbolDescription": "Sauļotais stabs"
   },
   "emilija": {
     "name": "Emīlija",
     "description": "",
     "link": "/audio/emilija",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "emils": {
     "name": "Emīls",
     "description": "Augstākajā kokā\nneredzama galotne.\nKā bezgalība.",
     "link": "/audio/emils",
-    "symbol": ""
+    "symbol": "auseklitis",
+    "symbolDescription": "Auseklītis"
   },
   "eliza": {
     "name": "Elīza",
     "description": "",
     "link": "/audio/eliza",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "elza": {
     "name": "Elza",
     "description": "",
     "link": "/audio/elza",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "georgs": {
     "name": "Georgs",
     "description": "Akmeņi saulē\nkaltē pērkona lietu,\nizauklē zīles.",
     "link": "/audio/georgs",
-    "symbol": ""
+    "symbol": "zaru_krusts",
+    "symbolDescription": "Zaru krusts"
   },
   "haralds": {
     "name": "Haralds",
     "description": "",
     "link": "/audio/haralds",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "haruka": {
     "name": "Haruka",
     "description": "Mūžīgie vēro\nkā ūdens sasniedz krastu, \nkā galotne aug. ",
     "link": "/audio/haruka",
-    "symbol": ""
+    "symbol": "austras_koks",
+    "symbolDescription": "Austras koks"
   },
   "hikari": {
     "name": "Hikari",
     "description": "Ziemas svētku nakts\npagriež laiku neredzot.\nSniegā tās pēdas.",
     "link": "/audio/hikari",
-    "symbol": ""
+    "symbol": "gadskartas",
+    "symbolDescription": "Gadskārtas"
   },
   "ints": {
     "name": "Ints",
     "description": "Reiz sapņu kuģis\nizvēlējās piekrasti.\nNoenkurojās.",
     "link": "/audio/ints",
-    "symbol": ""
+    "symbol": "vezitis",
+    "symbolDescription": "Vēzītis"
   },
   "janis": {
     "name": "Jānis",
     "description": "Zieds pie zieda plaukst\nkā vainagu apskāviens.\nVidū vīri jāj.",
     "link": "/audio/janis",
-    "symbol": ""
+    "symbol": "janis",
+    "symbolDescription": "Jānis"
   },
   "jekabs": {
     "name": "Jēkabs",
     "description": "",
     "link": "/audio/jekabs",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "kanna": {
     "name": "Kanna",
     "description": "Ceļa vidū krusts,\nputni lido tam pāri.\nTikai cilvēks stāj.",
     "link": "/audio/kanna",
-    "symbol": ""
+    "symbol": "krustu_krusts",
+    "symbolDescription": "Krustu krusts"
   },
   "kate": {
     "name": "Kate",
     "description": "",
     "link": "/audio/kate",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "krista": {
     "name": "Krista",
     "description": "Kājas pašas iet,\nrit svētīts ceļš uz mājām.\nApkārt zaļo birzs.\n",
     "link": "/audio/krista",
-    "symbol": ""
+    "symbol": "laimas_slotina",
+    "symbolDescription": "Laimas slotiņa"
   },
   "krisjanis": {
     "name": "Krišjānis",
     "description": "Dzīvota diena\nar vasaras raibumiem.\nPil pieneņu piens.",
     "link": "/audio/krisjanis",
-    "symbol": ""
+    "symbol": "saules_zime",
+    "symbolDescription": "Saules zīme"
   },
   "klinta": {
     "name": "Klinta",
     "description": "",
     "link": "/audio/klinta",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "leticija": {
     "name": "Letīcija",
     "description": "Vilnis atnesa –\nšūpuli no pagātnes.\nMāte acis ver.",
     "link": "/audio/leticija",
-    "symbol": ""
+    "symbol": "juras_mate",
+    "symbolDescription": "Jūras māte"
   },
   "madara": {
     "name": "Madara",
     "description": "",
     "link": "/audio/madara",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "maho": {
     "name": "Maho",
     "description": "Astoņas dienas\narkls kūpošās vagās.\nAkmens pēc akmens. ",
     "link": "/audio/maho",
-    "symbol": ""
+    "symbol": "zvaigzne",
+    "symbolDescription": "Zvaigzne"
   },
   "mara": {
     "name": "Māra",
     "description": "Ceļa vidū krusts,\nputni lido tam pāri.\nTikai cilvēks stāj.\n",
     "link": "/audio/mara",
-    "symbol": ""
+    "symbol": "krustu_krusts",
+    "symbolDescription": "Krustu krusts"
   },
   "mina": {
     "name": "Mina",
     "description": "Pļavas vēl zaļas -\ntur zirgi sarunājas.\nDzirdēt var tālu. ",
     "link": "/audio/mina",
-    "symbol": ""
+    "symbol": "martins",
+    "symbolDescription": "Mārtiņš"
   },
   "nora": {
     "name": "Nora",
     "description": "Saknei piekļāvies\nzemes vēsais solījums.\nRokā auglis salds.\n",
     "link": "/audio/nora",
-    "symbol": ""
+    "symbol": "dubultais_jumis",
+    "symbolDescription": "Dubultais Jumis"
   },
   "norio": {
     "name": "Norio",
     "description": "",
     "link": "/audio/norio",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "patricija": {
     "name": "Patrīcija",
     "description": "Ziemas svētku nakts\npagriež laiku neredzot.\nSniegā tās pēdas.\n",
     "link": "/audio/patricija",
-    "symbol": ""
+    "symbol": "gadskartas",
+    "symbolDescription": "Gadskārtas"
   },
   "peteris": {
     "name": "Pēteris",
     "description": "Mēness ēnu met\npār saules pilnu dārzu.\nTuvāk liecos – zieds.",
     "link": "/audio/peteris",
-    "symbol": ""
+    "symbol": "darzins",
+    "symbolDescription": "Dārziņš"
   },
   "rudolfs": {
     "name": "Rūdolfs",
     "description": "",
     "link": "/audio/rudolfs",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "ryokei": {
     "name": "Ryokei",
     "description": "Zieds pie zieda plaukst\nkā vainagu apskāviens.\nVidū vīri jāj. ",
     "link": "/audio/ryokei",
-    "symbol": ""
+    "symbol": "janis",
+    "symbolDescription": "Jānis"
   },
   "ryosuke": {
     "name": "Ryosuke",
     "description": "Vilnis atnesa –\nšūpuli no pagātnes.\nMāte acis ver. ",
     "link": "/audio/ryosuke",
-    "symbol": ""
+    "symbol": "juras_mate",
+    "symbolDescription": "Jūras māte"
   },
   "sabrina": {
     "name": "Sabrīna",
     "description": "",
     "link": "/audio/sabrina",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "santa": {
     "name": "Santa",
     "description": "Pļavas vēl zaļas -\ntur zirgi sarunājas.\nDzirdēt var tālu.",
     "link": "/audio/santa",
-    "symbol": ""
+    "symbol": "martins",
+    "symbolDescription": "Mārtiņš"
   },
   "sawako": {
     "name": "Sawako",
     "description": "Mēness ēnu met\npār saules pilnu dārzu.\nTuvāk liecos – zieds. ",
     "link": "/audio/sawako",
-    "symbol": ""
+    "symbol": "darzins",
+    "symbolDescription": "Dārziņš"
   },
   "sendija": {
     "name": "Sendija",
     "description": "",
     "link": "/audio/sendija",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "shingo": {
     "name": "Shingo",
     "description": "Saknei piekļāvies\nzemes vēsais solījums.\nRokā auglis salds.",
     "link": "/audio/shingo",
-    "symbol": ""
+    "symbol": "dubultais_jumis",
+    "symbolDescription": "Dubultais Jumis"
   },
   "shunta": {
     "name": "Shunta",
     "description": "Augstākajā kokā\nneredzama galotne.\nKā bezgalība.",
     "link": "/audio/shunta",
-    "symbol": ""
+    "symbol": "auseklitis",
+    "symbolDescription": "Auseklītis"
   },
   "shunya": {
     "name": "Shunya",
     "description": "Kājas pašas iet,\nrit svētīts ceļš uz mājām.\nApkārt zaļo birzs.",
     "link": "/audio/shunya",
-    "symbol": ""
+    "symbol": "laimas_slotina",
+    "symbolDescription": "Laimas slotiņa"
   },
   "signe": {
     "name": "Signe",
     "description": "Balsīm pilna nakts,\nvalodas atnes vēji.\nCilvēks – medījums.",
     "link": "/audio/signe",
-    "symbol": ""
+    "symbol": "lietuvens",
+    "symbolDescription": "Lietuvēns"
   },
   "sofija": {
     "name": "Sofija",
     "description": "Astoņas dienas\narkls kūpošās vagās.\nAkmens pēc akmens.",
     "link": "/audio/sofija",
-    "symbol": ""
+    "symbol": "zvaigzne",
+    "symbolDescription": "Zvaigzne"
   },
   "sora": {
     "name": "Sora",
     "description": "Ziedošā pļavā \ndienišķas lūgšanas skan.\nBite medu sūc.",
     "link": "/audio/sora",
-    "symbol": ""
+    "symbol": "saulotais_stabs",
+    "symbolDescription": "Sauļotais stabs"
   },
   "takashi": {
     "name": "Takashi",
     "description": "Akmeņi saulē\nkaltē pērkona lietu,\nizauklē zīles. ",
     "link": "/audio/takashi",
-    "symbol": ""
+    "symbol": "zaru_krusts",
+    "symbolDescription": "Zaru krusts"
   },
   "takayuki": {
     "name": "Takayuki",
     "description": "Cilvēks ir ceļā\nun bites ziedputekšņos.\nGalvenais – augšā!",
     "link": "/audio/takayuki",
-    "symbol": ""
+    "symbol": "usins",
+    "symbolDescription": "Ūsiņš"
   },
   "tetsuya": {
     "name": "Tetsuya",
     "description": "Balsīm pilna nakts,\nvalodas atnes vēji.\nCilvēks – medījums. ",
     "link": "/audio/tetsuya",
-    "symbol": ""
+    "symbol": "lietuvens",
+    "symbolDescription": "Lietuvēns"
   },
   "yasuna": {
     "name": "Yasuna",
     "description": "Reiz sapņu kuģis\nizvēlējās piekrasti.\nNoenkurojās. ",
     "link": "/audio/yasuna",
-    "symbol": ""
+    "symbol": "vezitis",
+    "symbolDescription": "Vēzītis"
   },
   "yuraro": {
     "name": "Yuraro",
     "description": "Rokas atpūšas.\nKamēr nokusīs sniegi\nputnubūrīšos. ",
     "link": "/audio/yuraro",
-    "symbol": ""
+    "symbol": "metenu_zime",
+    "symbolDescription": "Meteņu zīme"
   },
   "master": {
     "name": "master",
     "description": "",
     "link": "/audio/master",
-    "symbol": ""
+    "symbol": "",
+    "symbolDescription": ""
   },
   "info_japan": {
     "name": "Skanošā fotoizstāde “I Ru”",

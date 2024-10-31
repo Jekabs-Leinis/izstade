@@ -2,267 +2,320 @@
   "aksels": {
     "name": "Aksels",
     "description": "",
-    "link": "/audio/aksels"
+    "link": "/audio/aksels",
+    "symbolDescription": ""
   },
   "aleksis": {
     "name": "Aleksis",
     "description": "A person enroute\nand bees amongst the pollen.\nIn the main – upwards.",
-    "link": "/audio/aleksis"
+    "link": "/audio/aleksis",
+    "symbolDescription": "Deity of light"
   },
   "amanda": {
     "name": "Amanda",
     "description": "The hands are at rest.\nUntil the snow disappears\nfrom the birdcages.",
-    "link": "/audio/amanda"
+    "link": "/audio/amanda",
+    "symbolDescription": "Celebration of the winter's ending"
   },
   "amika": {
     "name": "Amika",
     "description": "A day that has shared\nsummer’s freckles, dripping milk\nof dandelions.",
-    "link": "/audio/amika"
+    "link": "/audio/amika",
+    "symbolDescription": "Sign of the Sun"
   },
   "ance": {
     "name": "Ance",
     "description": "",
-    "link": "/audio/ance"
+    "link": "/audio/ance",
+    "symbolDescription": ""
   },
   "andzela": {
     "name": "Andžela",
     "description": "",
-    "link": "/audio/andzela"
+    "link": "/audio/andzela",
+    "symbolDescription": ""
   },
   "anete": {
     "name": "Anete",
     "description": "",
-    "link": "/audio/anete"
+    "link": "/audio/anete",
+    "symbolDescription": ""
   },
   "arvis": {
     "name": "Arvis",
     "description": "The Eternals watch\nAs water reaches the shore, \nAs the treetops grow.",
-    "link": "/audio/arvis"
+    "link": "/audio/arvis",
+    "symbolDescription": "World tree"
   },
   "dafne": {
     "name": "Dafne",
     "description": "A meadow in bloom\nDay-to-day prayers sound out. \nA bee sucks honey.",
-    "link": "/audio/dafne"
+    "link": "/audio/dafne",
+    "symbolDescription": "Solar pillar"
   },
   "emilija": {
     "name": "Emīlija",
     "description": "",
-    "link": "/audio/emilija"
+    "link": "/audio/emilija",
+    "symbolDescription": ""
   },
   "emils": {
     "name": "Emīls",
     "description": "The tallest tree has\nAn invisible treetop.\nLike infinity.",
-    "link": "/audio/emils"
+    "link": "/audio/emils",
+    "symbolDescription": "Morning star"
   },
   "eliza": {
     "name": "Elīza",
     "description": "",
-    "link": "/audio/eliza"
+    "link": "/audio/eliza",
+    "symbolDescription": ""
   },
   "elza": {
     "name": "Elza",
     "description": "",
-    "link": "/audio/elza"
+    "link": "/audio/elza",
+    "symbolDescription": ""
   },
   "georgs": {
     "name": "Georgs",
     "description": "Stones in the sunshine\nDo dry out the thunderstorms,\nand nurture acorns.",
-    "link": "/audio/georgs"
+    "link": "/audio/georgs",
+    "symbolDescription": "Cross of branches"
   },
   "haralds": {
     "name": "Haralds",
     "description": "",
-    "link": "/audio/haralds"
+    "link": "/audio/haralds",
+    "symbolDescription": ""
   },
   "haruka": {
     "name": "Haruka",
     "description": "The Eternals watch\nAs water reaches the shore, \nAs the treetops grow.",
-    "link": "/audio/haruka"
+    "link": "/audio/haruka",
+    "symbolDescription": "World tree"
   },
   "hikari": {
     "name": "Hikari",
     "description": "The night of Christmas \nprogresses time though unseen.\nIts tracks in the snow.",
-    "link": "/audio/hikari"
+    "link": "/audio/hikari",
+    "symbolDescription": "Annual rites"
   },
   "ints": {
     "name": "Ints",
     "description": "Once a ship of dreams\nselected the coastline where,\nIt dropped its anchor.",
-    "link": "/audio/ints"
+    "link": "/audio/ints",
+    "symbolDescription": "Crayfish"
   },
   "janis": {
     "name": "Jānis",
     "description": "Flower by flower blooms\nlike a floral wreath’s embrace.\nMen ride at the core.",
-    "link": "/audio/janis"
+    "link": "/audio/janis",
+    "symbolDescription": "Deity of love and fertility"
   },
   "jekabs": {
     "name": "Jēkabs",
     "description": "",
-    "link": "/audio/jekabs"
+    "link": "/audio/jekabs",
+    "symbolDescription": ""
   },
   "kanna": {
     "name": "Kanna",
     "description": "The road has a cross-\ncentred - birds fly over it.\nJust a person stops.",
-    "link": "/audio/kanna"
+    "link": "/audio/kanna",
+    "symbolDescription": "Cross of crosses"
   },
   "kate": {
     "name": "Kate",
     "description": "",
-    "link": "/audio/kate"
+    "link": "/audio/kate",
+    "symbolDescription": ""
   },
   "krista": {
     "name": "Krista",
     "description": "The legs move themselves,\nalong a blessed way home.\nAll round a green grove.",
-    "link": "/audio/krista"
+    "link": "/audio/krista",
+    "symbolDescription": "Fortune's besom"
   },
   "krisjanis": {
     "name": "Krišjānis",
     "description": "A day that has shared\nsummer’s freckles, dripping milk\nof dandelions.",
-    "link": "/audio/krisjanis"
+    "link": "/audio/krisjanis",
+    "symbolDescription": "Sign of the Sun"
   },
   "klinta": {
     "name": "Klinta",
     "description": "",
-    "link": "/audio/klinta"
+    "link": "/audio/klinta",
+    "symbolDescription": ""
   },
   "leticija": {
     "name": "Letīcija",
     "description": "The wave has carried –\na cradle from bygone times.\nMother opens her eyes.",
-    "link": "/audio/leticija"
+    "link": "/audio/leticija",
+    "symbolDescription": "Mother of the Sea"
   },
   "madara": {
     "name": "Madara",
     "description": "",
-    "link": "/audio/madara"
+    "link": "/audio/madara",
+    "symbolDescription": ""
   },
   "maho": {
     "name": "Maho",
     "description": "Eight days  were consumed\nplowing smoldering furrows. \nMoving stone by stone.",
-    "link": "/audio/maho"
+    "link": "/audio/maho",
+    "symbolDescription": "Star"
   },
   "mara": {
     "name": "Māra",
     "description": "The road has a cross-\ncentred - birds fly over it.\nJust a person stops.",
-    "link": "/audio/mara"
+    "link": "/audio/mara",
+    "symbolDescription": "Cross of crosses"
   },
   "mina": {
     "name": "Mina",
     "description": "Meadows are still green -\nhorses communicate there.\nAnd can be heard far.",
-    "link": "/audio/mina"
+    "link": "/audio/mina",
+    "symbolDescription": "Deity of cattle and horses"
   },
   "nora": {
     "name": "Nora",
     "description": "Attached to the roots\nthe cool promise of the earth.\nIn my hand – sweet fruit.",
-    "link": "/audio/nora"
+    "link": "/audio/nora",
+    "symbolDescription": "Dubble Deity of harvest and wealth"
   },
   "norio": {
     "name": "Norio",
     "description": "",
-    "link": "/audio/norio"
+    "link": "/audio/norio",
+    "symbolDescription": ""
   },
   "patricija": {
     "name": "Patrīcija",
     "description": "The night of Christmas \nprogresses time though unseen.\nIts tracks in the snow.",
-    "link": "/audio/patricija"
+    "link": "/audio/patricija",
+    "symbolDescription": "Annual rites"
   },
   "peteris": {
     "name": "Pēteris",
     "description": "The moon casts shadows\nover a sunny garden.\nLeaning nigh - a bloom.",
-    "link": "/audio/peteris"
+    "link": "/audio/peteris",
+    "symbolDescription": "Halo of the Sun"
   },
   "rudolfs": {
     "name": "Rūdolfs",
     "description": "",
-    "link": "/audio/rudolfs"
+    "link": "/audio/rudolfs",
+    "symbolDescription": ""
   },
   "ryokei": {
     "name": "Ryokei",
     "description": "Flower by flower blooms\nlike a floral wreath’s embrace.\nMen ride at the core.",
-    "link": "/audio/ryokei"
+    "link": "/audio/ryokei",
+    "symbolDescription": "Deity of love and fertility"
   },
   "ryosuke": {
     "name": "Ryosuke",
     "description": "The wave has carried –\na cradle from bygone times.\nMother opens her eyes.",
-    "link": "/audio/ryosuke"
+    "link": "/audio/ryosuke",
+    "symbolDescription": "Mother of the Sea"
   },
   "sabrina": {
     "name": "Sabrīna",
     "description": "",
-    "link": "/audio/sabrina"
+    "link": "/audio/sabrina",
+    "symbolDescription": ""
   },
   "santa": {
     "name": "Santa",
     "description": "Meadows are still green -\nhorses communicate there.\nAnd can be heard far.",
-    "link": "/audio/santa"
+    "link": "/audio/santa",
+    "symbolDescription": "Deity of cattle and horses"
   },
   "sawako": {
     "name": "Sawako",
     "description": "The moon casts shadows\nover a sunny garden.\nLeaning nigh - a bloom.",
-    "link": "/audio/sawako"
+    "link": "/audio/sawako",
+    "symbolDescription": "Halo of the Sun"
   },
   "sendija": {
     "name": "Sendija",
     "description": "",
-    "link": "/audio/sendija"
+    "link": "/audio/sendija",
+    "symbolDescription": ""
   },
   "shingo": {
     "name": "Shingo",
     "description": "Attached to the roots\nthe cool promise of the earth.\nIn my hand – sweet fruit.",
-    "link": "/audio/shingo"
+    "link": "/audio/shingo",
+    "symbolDescription": "Dubble Deity of harvest and wealth"
   },
   "shunta": {
     "name": "Shunta",
     "description": "The tallest tree has\nAn invisible treetop.\nLike infinity.",
-    "link": "/audio/shunta"
+    "link": "/audio/shunta",
+    "symbolDescription": "Morning star"
   },
   "shunya": {
     "name": "Shunya",
     "description": "The legs move themselves,\nalong a blessed way home.\nAll round a green grove.",
-    "link": "/audio/shunya"
+    "link": "/audio/shunya",
+    "symbolDescription": "Fortune's besom"
   },
   "signe": {
     "name": "Signe",
     "description": "Night full of voices,\nrumours carried by the winds.\nMan is the quarry.",
-    "link": "/audio/signe"
+    "link": "/audio/signe",
+    "symbolDescription": "Incubus"
   },
   "sofija": {
     "name": "Sofija",
     "description": "Eight days  were consumed\nplowing smoldering furrows. \nMoving stone by stone.",
-    "link": "/audio/sofija"
+    "link": "/audio/sofija",
+    "symbolDescription": "Star"
   },
   "sora": {
     "name": "Sora",
     "description": "A meadow in bloom\nDay-to-day prayers sound out. \nA bee sucks honey.",
-    "link": "/audio/sora"
+    "link": "/audio/sora",
+    "symbolDescription": "Solar pillar"
   },
   "takashi": {
     "name": "Takashi",
     "description": "Stones in the sunshine\nDo dry out the thunderstorms,\nand nurture acorns.",
-    "link": "/audio/takashi"
+    "link": "/audio/takashi",
+    "symbolDescription": "Cross of branches"
   },
   "takayuki": {
     "name": "Takayuki",
     "description": "A person enroute\nand bees amongst the pollen.\nIn the main – upwards.",
-    "link": "/audio/takayuki"
+    "link": "/audio/takayuki",
+    "symbolDescription": "Deity of light"
   },
   "tetsuya": {
     "name": "Tetsuya",
     "description": "Night full of voices,\nrumours carried by the winds.\nMan is the quarry.",
-    "link": "/audio/tetsuya"
+    "link": "/audio/tetsuya",
+    "symbolDescription": "Incubus"
   },
   "yasuna": {
     "name": "Yasuna",
     "description": "Once a ship of dreams\nselected the coastline where,\nIt dropped its anchor.",
-    "link": "/audio/yasuna"
+    "link": "/audio/yasuna",
+    "symbolDescription": "Crayfish"
   },
   "yuraro": {
     "name": "Yuraro",
     "description": "The hands are at rest.\nUntil the snow disappears\nfrom the birdcages.",
-    "link": "/audio/yuraro"
+    "link": "/audio/yuraro",
+    "symbolDescription": "Celebration of the winter's ending"
   },
   "master": {
     "name": "master",
     "description": "",
-    "link": "/audio/master"
+    "link": "/audio/master",
+    "symbolDescription": ""
   },
   "info_japan": {
     "name": "Sounding photo exhibition I Ru",

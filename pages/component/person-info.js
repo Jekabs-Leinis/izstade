@@ -6,6 +6,7 @@ import ReactHtmlParser from 'react-html-parser';
 import lv_data from '../../config/lv.json'
 import en_data from '../../config/en.json'
 import jp_data from '../../config/jp.json'
+import {ST} from "next/dist/shared/lib/utils";
 
 export default function PersonInfo({language = 'jp'}) {
   const router = useRouter();
@@ -17,8 +18,7 @@ export default function PersonInfo({language = 'jp'}) {
     lv_data[id]?.description,
     en_data[id]?.description,
   ].map((value) => value ? value : "CONTENT IS MISSING");
-  
-  
+
 
   const formattedParagraphs = paragraphs.map(
     (paragraph, index) => (
@@ -37,8 +37,17 @@ export default function PersonInfo({language = 'jp'}) {
     return (<div className={styles.container}>
       <main className={[styles.main, styles.newLine].join(" ")}>
         <h1 className={styles.h1}>{toHtml(name)}</h1>
-        <h1 className={styles.h1}>{lv_data[id].symbol || "CONTENT IS MISSING"}</h1>
-        <h1 className={styles.h1}>{jp_data[id].symbol || "CONTENT IS MISSING"}</h1>
+        <h1 className={styles.h1}>
+          <object className={styles.latvianSign} data={`/icon/lv/${lv_data[id].symbol}.svg`} type="image/svg+xml">
+            CONTENT IS MISSING
+          </object>
+        </h1>
+        <h3>
+          <i>
+            {lv_data[id].symbolDescription || "CONTENT IS MISSING"} / {en_data[id].symbolDescription || "CONTENT IS MISSING"}
+          </i>
+        </h3>
+        <h1 className={styles.japaneseSign}>{jp_data[id].symbol || "CONTENT IS MISSING"}</h1>
         {formattedParagraphs}
       </main>
     </div>)
