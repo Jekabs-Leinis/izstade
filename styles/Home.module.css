@@ -199,3 +199,9 @@
     font-size: 48px;
     margin-top: 16px;
 }
+
+.backToInfo {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
