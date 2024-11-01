@@ -1,2 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 16 16"><path id="pa" d="M2,7 L0,5 L2,3 L6,7 M10,7 L12,5 L10,3 L6,7 M6,0.5 L6,11 M4,1 L6,3 L8,1" stroke="black" stroke-width="1" fill="none" stroke-linecap="square" stroke-linejoin="miter"/>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+     viewBox="-2 -2 16 16">
+  <path
+     id="pa"
+     d="M 3.1438546,7.4391556 1.7157819,6.011083 3.1438546,4.5830102 6,7.4391556 m 2.8561454,0 L 10.284218,6.011083 8.8561454,4.5830102 6,7.4391556 M 6,2.7979193 V 10.295301 M 4.5719273,3.1549375 6,4.5830102 7.4280727,3.1549375"
+     style="fill:none;stroke:#000000;stroke-width:0.71403635;stroke-linecap:square;stroke-linejoin:miter" />
 </svg>
