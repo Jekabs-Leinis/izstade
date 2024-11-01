@@ -197,7 +197,8 @@
 
 .japaneseSign {
     font-size: 48px;
-    margin-top: 16px;
+    vertical-align: top;
+    margin-left: 48px;
 }
 
 .backToInfo {

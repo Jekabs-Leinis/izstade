@@ -41,13 +41,13 @@ export default function PersonInfo({language = 'jp'}) {
           <object className={styles.latvianSign} data={`/icon/lv/${lv_data[id].symbol}.svg`} type="image/svg+xml">
             CONTENT IS MISSING
           </object>
+          <span className={styles.japaneseSign}>{jp_data[id].symbol || "CONTENT IS MISSING"}</span>
         </h1>
         <h3>
           <i>
             {lv_data[id].symbolDescription || "CONTENT IS MISSING"} / {en_data[id].symbolDescription || "CONTENT IS MISSING"}
           </i>
         </h3>
-        <h1 className={styles.japaneseSign}>{jp_data[id].symbol || "CONTENT IS MISSING"}</h1>
         {formattedParagraphs}
       </main>
     </div>)
