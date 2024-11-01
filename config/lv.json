@@ -244,10 +244,10 @@
     "symbol": "",
     "symbolDescription": ""
   },
-  "ryokei": {
-    "name": "Ryokei",
+  "ryohei": {
+    "name": "Ryohei",
     "description": "Zieds pie zieda plaukst\nkā vainagu apskāviens.\nVidū vīri jāj. ",
-    "link": "/audio/ryokei",
+    "link": "/audio/ryohei",
     "symbol": "janis",
     "symbolDescription": "Jānis"
   },
@@ -356,10 +356,10 @@
     "symbol": "vezitis",
     "symbolDescription": "Vēzītis"
   },
-  "yuraro": {
-    "name": "Yuraro",
+  "yutaro": {
+    "name": "Yutaro",
     "description": "Rokas atpūšas.\nKamēr nokusīs sniegi\nputnubūrīšos. ",
-    "link": "/audio/yuraro",
+    "link": "/audio/yutaro",
     "symbol": "metenu_zime",
     "symbolDescription": "Meteņu zīme"
   },

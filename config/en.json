@@ -209,10 +209,10 @@
     "link": "/audio/rudolfs",
     "symbolDescription": ""
   },
-  "ryokei": {
-    "name": "Ryokei",
+  "ryohei": {
+    "name": "Ryohei",
     "description": "Flower by flower blooms\nlike a floral wreath’s embrace.\nMen ride at the core.",
-    "link": "/audio/ryokei",
+    "link": "/audio/ryohei",
     "symbolDescription": "Deity of love and fertility"
   },
   "ryosuke": {
@@ -305,10 +305,10 @@
     "link": "/audio/yasuna",
     "symbolDescription": "Crayfish"
   },
-  "yuraro": {
-    "name": "Yuraro",
+  "yutaro": {
+    "name": "Yutaro",
     "description": "The hands are at rest.\nUntil the snow disappears\nfrom the birdcages.",
-    "link": "/audio/yuraro",
+    "link": "/audio/yutaro",
     "symbolDescription": "Celebration of the winter's ending"
   },
   "master": {

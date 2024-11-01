@@ -209,10 +209,10 @@
     "link": "/audio/rudolfs",
     "symbol": ""
   },
-  "ryokei": {
-    "name": "Ryokei",
+  "ryohei": {
+    "name": "Ryohei",
     "description": "咲く花に\n包まれて騎る\n男たち",
-    "link": "/audio/ryokei",
+    "link": "/audio/ryohei",
     "symbol": "篝"
   },
   "ryosuke": {
@@ -305,10 +305,10 @@
     "link": "/audio/yasuna",
     "symbol": "蟹"
   },
-  "yuraro": {
-    "name": "Yuraro",
+  "yutaro": {
+    "name": "Yutaro",
     "description": "手休めは\n鳥籠の雪\n融けるまで",
-    "link": "/audio/yuraro",
+    "link": "/audio/yutaro",
     "symbol": "元"
   },
   "master": {
