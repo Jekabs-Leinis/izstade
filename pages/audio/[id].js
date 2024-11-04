@@ -10,6 +10,12 @@ import {useRouter} from "next/router";
 export default function Voice() {
   const router = useRouter();
   const {id} = router.query;
+  if (lv_data[id]?.redirect) {
+    router.push(lv_data[id].redirect);
+    
+    return null;
+  }
+  
   const name = lv_data[id]?.name;
 
   return (

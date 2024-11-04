@@ -209,6 +209,9 @@
     "link": "/audio/rudolfs",
     "symbolDescription": ""
   },
+  "ryokei": {
+    "redirect": "ryohei"
+  },
   "ryohei": {
     "name": "Ryohei",
     "description": "Flower by flower blooms\nlike a floral wreath’s embrace.\nMen ride at the core.",
@@ -304,6 +307,9 @@
     "description": "Once a ship of dreams\nselected the coastline where,\nIt dropped its anchor.",
     "link": "/audio/yasuna",
     "symbolDescription": "Crayfish"
+  },
+  "yuraro": {
+    "redirect": "yutaro"
   },
   "yutaro": {
     "name": "Yutaro",

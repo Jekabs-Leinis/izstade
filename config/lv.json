@@ -244,6 +244,9 @@
     "symbol": "",
     "symbolDescription": ""
   },
+  "ryokei": {
+    "redirect": "ryohei"
+  },
   "ryohei": {
     "name": "Ryohei",
     "description": "Zieds pie zieda plaukst\nkā vainagu apskāviens.\nVidū vīri jāj. ",
@@ -355,6 +358,9 @@
     "link": "/audio/yasuna",
     "symbol": "vezitis",
     "symbolDescription": "Vēzītis"
+  },
+  "yuraro": {
+    "redirect": "yutaro"
   },
   "yutaro": {
     "name": "Yutaro",

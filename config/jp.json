@@ -209,6 +209,9 @@
     "link": "/audio/rudolfs",
     "symbol": ""
   },
+  "ryokei": {
+    "redirect": "ryohei"
+  },
   "ryohei": {
     "name": "Ryohei",
     "description": "咲く花に\n包まれて騎る\n男たち",
@@ -304,6 +307,9 @@
     "description": "夢の船\n波止場選んで\nふながかる",
     "link": "/audio/yasuna",
     "symbol": "蟹"
+  },
+  "yuraro": {
+    "redirect": "yutaro"
   },
   "yutaro": {
     "name": "Yutaro",
