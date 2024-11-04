@@ -71,7 +71,9 @@ export default function AudioPlayer() {
     <div className={styles.player}>
       {isPlaying ?
         <audio id="player" ref={player} controls>
-          <source id="audio" src={getAudioSource()} type="audio/mpeg"/>
+          <source id="audio" src={`/opus/${id}.opus`} type="audio/ogg; codecs=opus"/>
+          <source id="audio" src={`/m4a/${id}.m4a`} type="audio/mp4"/>
+          <source id="audio" src={`/mp3/${id}.mp3`} type="audio/mpeg"/>
           Your browser does not support audio
         </audio>
         :
