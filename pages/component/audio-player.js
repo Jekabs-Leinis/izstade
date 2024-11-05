@@ -14,7 +14,7 @@ export default function AudioPlayer() {
     // console.log("page loaded", id, isPlaying);
     if (id && isPlaying) {
       startMcorpApp();
-      
+
       let volume = 1;
 
       window.onfocus = () => {
@@ -26,7 +26,7 @@ export default function AudioPlayer() {
       window.onblur = () => {
         if (player.current) {
           volume = player.current.volume;
-          player.current.volume = 0;
+          //player.current.volume = 0;
         }
       };
     }
@@ -44,7 +44,7 @@ export default function AudioPlayer() {
       motion.update({velocity: 1.0});
 
       motion.on("timeupdate", function (e) {
-        // console.log("pos change?", e.pos, e);
+        console.log("pos change?", e.pos, player.current?.currentTime, e);
 
         //285 sec == 4:45 end of MP3
         if (e.pos >= 285) {
@@ -58,19 +58,13 @@ export default function AudioPlayer() {
   }
 
   function startSync(motion) {
-    audioSync = MCorp.mediaSync(player.current, motion);
-  }
-
-  function getAudioSource() {
-    return "/mp3/master.webm"
-    
-    //return "/mp3/" + id + ".opus"
+    audioSync = MCorp.mediaSync(player.current, motion, { mode: "skip", target: 0.05 });
   }
 
   return (
     <div className={styles.player}>
       {isPlaying ?
-        <audio id="player" ref={player} controls>
+        <audio id="player" preload="auto" ref={player} controls>
           {/*<source id="audio" src={`/opus/${id}.opus`} type="audio/ogg; codecs=opus"/>*/}
           {/*<source id="audio" src={`/m4a/${id}.m4a`} type="audio/mp4"/>*/}
           <source id="audio" src={`/mp3/${id}.mp3`} type="audio/mpeg"/>
