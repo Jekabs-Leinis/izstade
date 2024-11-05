@@ -1,7 +1,7 @@
 import React from 'react';
 import {useRouter} from "next/router";
 import styles from '../../styles/Home.module.css';
-import ReactHtmlParser from 'react-html-parser';
+import parse from "html-react-parser";
 
 import lv_data from '../../config/lv.json'
 import en_data from '../../config/en.json'
@@ -30,7 +30,7 @@ export default function PersonInfo({language = 'jp'}) {
   function toHtml(value) {
     // If there are 2 consequential tags in the text, the \n symbols between them are ignored.
     // This is manually fixed on case-by-case basis by inserting '⠀' U+2800 Braille Pattern Blank symbol.
-    return ReactHtmlParser(value);
+    return parse(value);
   }
 
   if (id) {

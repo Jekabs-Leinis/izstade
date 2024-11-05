@@ -13,10 +13,8 @@ export default function Home() {
     const link = lv_data[id].link;
 
     return (
-      <Link key={id} href={link}>
-        <a className={styles.card}>
-          {name}
-        </a>
+      <Link key={id} href={link} className={styles.card}>
+        {name}
       </Link>
     )
   }

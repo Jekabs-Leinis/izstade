@@ -73,7 +73,7 @@ export default function AudioPlayer() {
         :
         <div>
           <Image className={styles.playBtn} onClick={() => setIsPlaying(true)} src="/icon/play_btn.png" alt="me"
-                 width="200%" height="200%"/>
+                 width="200" height="200"/>
         </div>
       }
     </div>

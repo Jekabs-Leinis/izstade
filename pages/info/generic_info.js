@@ -2,7 +2,7 @@
 import lv_data from '../../config/lv.json'
 import en_data from '../../config/en.json'
 import jp_data from '../../config/jp.json'
-import ReactHtmlParser from 'react-html-parser'
+import parse from "html-react-parser";
 import Head from "next/head";
 import LangPickerWidget from "../component/lang-picker-widget";
 import React, {useEffect} from "react";
@@ -36,7 +36,7 @@ export default function Home({ info_key }) {
   function toHtml(value) {
     // If there are 2 consequential tags in the text, the \n symbols between them are ignored.
     // This is manually fixed on case-by-case basis by inserting '⠀' U+2800 Braille Pattern Blank symbol.
-    return ReactHtmlParser(value);
+    return parse(value);
   }
 
   return (
