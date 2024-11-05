@@ -38,9 +38,9 @@ export default function AudioPlayer() {
   }, [id, isPlaying]);
 
   function startMcorpApp() {
-    let app = MCorp.app("5091800104256110023", {anon: true});
+    let app = MCorp.app("731711129985873604", {anon: true});
     app.run = function () {
-      let motion = app.motions["iru-master"];
+      let motion = app.motions["iru-japan"];
       motion.update({velocity: 1.0});
 
       motion.on("timeupdate", function (e) {
