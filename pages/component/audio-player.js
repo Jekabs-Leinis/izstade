@@ -26,7 +26,7 @@ export default function AudioPlayer() {
       window.onblur = () => {
         if (player.current) {
           volume = player.current.volume;
-          //player.current.volume = 0;
+          player.current.volume = 0;
         }
       };
     }
