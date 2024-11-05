@@ -26,7 +26,7 @@ export default function AudioPlayer() {
       window.onblur = () => {
         if (player.current) {
           volume = player.current.volume;
-          player.current.volume = 0;
+          //player.current.volume = 0;
         }
       };
     }
@@ -58,7 +58,7 @@ export default function AudioPlayer() {
   }
 
   function startSync(motion) {
-    audioSync = MCorp.mediaSync(player.current, motion, { mode: "skip", target: 0.05 });
+    audioSync = MCorp.mediaSync(player.current, motion, { target: 0.05 });
   }
 
   return (
