@@ -26,7 +26,7 @@ export default function AudioPlayer() {
       window.onblur = () => {
         if (player.current) {
           volume = player.current.volume;
-          player.current.volume = 0;
+         // player.current.volume = 0;
         }
       };
     }
@@ -41,22 +41,44 @@ export default function AudioPlayer() {
     let codes = [
       {appId: "4952025322445042341", motion: "audio-sync"},
       {appId: "731711129985873604", motion: "iru-japan"},
+      {appId: "5091800104256110023", motion: "iru-master"},
     ];
     
-    let code = codes[1];
+    let code = codes[2];
     
-    // "4952025322445042341"
     let app = MCorp.app(code.appId, {anon: true});
     app.run = function () {
       let motion = app.motions[code.motion];
       motion.update({velocity: 1.0});
+      
+         // window.testReset = () => {
+         //   motion.update({position: 280.0, velocity: 1.0});
+         // }
+      
+      let isResetting = false;
 
       motion.on("timeupdate", function (e) {
-        // console.log("pos change?", e.pos, player.current?.currentTime, e);
+        // console.log("pos change?", e.pos, e);
+         
+        if (e.pos < 100) {
+          isResetting = false;
+        }
 
         //285 sec == 4:45 end of MP3
         if (e.pos >= 285) {
-          motion.update({position: 0.0, velocity: 1.0});
+          if (isResetting) {
+            return;
+          }
+
+          isResetting = true;
+
+          if (id === "master") {
+            resetSync(motion);
+          } else {
+            // Other pages can reset, but only if the main page fails to do so
+            setTimeout(() => resetSync(motion), 5000);
+            // console.log("Not master, resetting in 5 seconds")
+          }
         }
       });
 
@@ -64,9 +86,24 @@ export default function AudioPlayer() {
     };
     app.init();
   }
+  
+  function resetSync(motion) {
+    if (motion.query().pos < 285) {
+      // console.log("Not resetting, pos is", motion.query().pos);
+      
+      return;
+    }
+    
+    motion.update({position: 0.0, velocity: 0.0});
+    
+    // Wait 2.5 seconds to reduce desync on reset
+    setTimeout(() => motion.update({velocity: 1.0}), 2500);
+    
+    // console.log("Resetting")
+  }
 
   function startSync(motion) {
-    audioSync = MCorp.mediaSync(player.current, motion, { target: 0.05 });
+    audioSync = MCorp.mediaSync(player.current, motion, { debug: false, target: 0.05 });
   }
 
   return (
