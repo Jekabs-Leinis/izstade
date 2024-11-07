@@ -35,3 +35,8 @@ yarn-error.log*
 
 # idea
 .idea
+/public/m4a_bak/
+/public/mp3_192/
+/public/opus_bak/
+
+*.ini
