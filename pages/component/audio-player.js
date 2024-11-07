@@ -38,13 +38,21 @@ export default function AudioPlayer() {
   }, [id, isPlaying]);
 
   function startMcorpApp() {
-    let app = MCorp.app("4952025322445042341", {anon: true});
+    let codes = [
+      {appId: "4952025322445042341", motion: "audio-sync"},
+      {appId: "731711129985873604", motion: "iru-japan"},
+    ];
+    
+    let code = codes[1];
+    
+    // "4952025322445042341"
+    let app = MCorp.app(code.appId, {anon: true});
     app.run = function () {
-      let motion = app.motions["audio-sync"];
+      let motion = app.motions[code.motion];
       motion.update({velocity: 1.0});
 
       motion.on("timeupdate", function (e) {
-        console.log("pos change?", e.pos, player.current?.currentTime, e);
+        // console.log("pos change?", e.pos, player.current?.currentTime, e);
 
         //285 sec == 4:45 end of MP3
         if (e.pos >= 285) {
@@ -65,8 +73,6 @@ export default function AudioPlayer() {
     <div className={styles.player}>
       {isPlaying ?
         <audio id="player" preload="auto" ref={player} controls>
-          {/*<source id="audio" src={`/opus/${id}.opus`} type="audio/ogg; codecs=opus"/>*/}
-          {/*<source id="audio" src={`/m4a/${id}.m4a`} type="audio/mp4"/>*/}
           <source id="audio" src={`/mp3/${id}.mp3`} type="audio/mpeg"/>
           Your browser does not support audio
         </audio>
