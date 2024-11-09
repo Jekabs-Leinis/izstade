@@ -47,6 +47,7 @@ export default function AudioPlayer() {
     let code = codes[1];
     
     let app = MCorp.app(code.appId, {anon: true});
+    window.app = app;
     
     console.log("app", app);
     app.run = function () {
