@@ -26,7 +26,7 @@ export default function AudioPlayer() {
       window.onblur = () => {
         if (player.current) {
           volume = player.current.volume;
-         //player.current.volume = 0;
+          //player.current.volume = 0;
         }
       };
     }
@@ -42,50 +42,42 @@ export default function AudioPlayer() {
       {appId: "4952025322445042341", motion: "audio-sync"},
       {appId: "731711129985873604", motion: "iru-japan"},
       {appId: "5091800104256110023", motion: "iru-master"},
+      {appId: "6140754273861824646", motion: "iru-master"}
     ];
-    
-    let code = codes[1];
-    
+
+    let code = codes[3];
+
     let app = MCorp.app(code.appId, {anon: true});
     window.app = app;
-    
+
     console.log("app", app);
     app.run = function () {
       console.log("app.run")
+      
       let motion = app.motions[code.motion];
       motion.update({velocity: 1.0});
-      
+
       window.motion = motion;
-      
-         window.testReset = () => {
-           motion.update({position: 280.0, velocity: 1.0});
-         }
-      //
-      // let isResetting = false;
-      
+
+      window.testReset = () => {
+        motion.update({position: 280.0, velocity: 1.0});
+      }
+
 
       startSync(motion);
     };
+    
     app.init();
-  }
-  
-  function resetSync(motion) {
-    if (motion.query().pos < 285) {
-      // console.log("Not resetting, pos is", motion.query().pos);
-      
-      return;
-    }
-    
-    motion.update({position: 0.0, velocity: 0.0});
-    
-    // Wait 2.5 seconds to reduce desync on reset
-    setTimeout(() => motion.update({velocity: 1.0}), 2500);
-    
-    // console.log("Resetting")
   }
 
   function startSync(motion) {
-    audioSync = MCorp.mediaSync(player.current, motion, { debug: false, target: 0.05, loop: true, duration: 285 });
+    audioSync = MCorp.mediaSync(player.current, motion, {
+      debug: false,
+      target: 0.05,
+      loop: true,
+      duration: 285,
+      skew: 0
+    });
   }
 
   return (
