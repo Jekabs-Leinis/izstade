@@ -26,7 +26,7 @@ export default function AudioPlayer() {
       window.onblur = () => {
         if (player.current) {
           volume = player.current.volume;
-         player.current.volume = 0;
+         //player.current.volume = 0;
         }
       };
     }
@@ -47,40 +47,21 @@ export default function AudioPlayer() {
     let code = codes[1];
     
     let app = MCorp.app(code.appId, {anon: true});
+    
+    console.log("app", app);
     app.run = function () {
+      console.log("app.run")
       let motion = app.motions[code.motion];
       motion.update({velocity: 1.0});
       
-         // window.testReset = () => {
-         //   motion.update({position: 280.0, velocity: 1.0});
-         // }
+      window.motion = motion;
       
-      let isResetting = false;
-
-      motion.on("timeupdate", function (e) {
-        // console.log("pos change?", e.pos, e);
-         
-        if (e.pos < 100) {
-          isResetting = false;
-        }
-
-        //285 sec == 4:45 end of MP3
-        if (e.pos >= 285) {
-          if (isResetting) {
-            return;
-          }
-
-          isResetting = true;
-
-          if (id === "master") {
-            resetSync(motion);
-          } else {
-            // Other pages can reset, but only if the main page fails to do so
-            setTimeout(() => resetSync(motion), 5000);
-            // console.log("Not master, resetting in 5 seconds")
-          }
-        }
-      });
+         window.testReset = () => {
+           motion.update({position: 280.0, velocity: 1.0});
+         }
+      //
+      // let isResetting = false;
+      
 
       startSync(motion);
     };
@@ -103,7 +84,7 @@ export default function AudioPlayer() {
   }
 
   function startSync(motion) {
-    audioSync = MCorp.mediaSync(player.current, motion, { debug: false, target: 0.05 });
+    audioSync = MCorp.mediaSync(player.current, motion, { debug: false, target: 0.05, loop: true, duration: 285 });
   }
 
   return (
