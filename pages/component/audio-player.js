@@ -42,7 +42,7 @@ export default function AudioPlayer() {
       {appId: "5091800104256110023", motion: "iru-master"},
     ];
 
-    let code = codes[3];
+    let code = codes[0];
 
     let app = MCorp.app(code.appId, {anon: true});
     window.app = app;
