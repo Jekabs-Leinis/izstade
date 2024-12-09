@@ -39,10 +39,7 @@ export default function AudioPlayer() {
 
   function startMcorpApp() {
     let codes = [
-      {appId: "4952025322445042341", motion: "audio-sync"},
-      {appId: "731711129985873604", motion: "iru-japan"},
       {appId: "5091800104256110023", motion: "iru-master"},
-      {appId: "6140754273861824646", motion: "iru-master"}
     ];
 
     let code = codes[3];
