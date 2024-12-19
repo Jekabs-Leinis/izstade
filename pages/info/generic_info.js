@@ -8,7 +8,7 @@ import LangPickerWidget from "../component/lang-picker-widget";
 import React, {useEffect} from "react";
 
 export default function Home({ info_key }) {
-  let [language, setLanguage] = React.useState( 'jp');
+  let [language, setLanguage] = React.useState( 'lv');
 
   useEffect(() => {
     if (localStorage.getItem('lang')) {

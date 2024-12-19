@@ -842,6 +842,7 @@ var MSV = function (_MSV_) {
         if (valid !== null && valid != old_msv_data.eventid) {
           return
         }
+        debugger;
         var old_vector = old_msv_data.vector;
         var now_vector = MSV.compute_msv(old_vector, ts_now);
         var p = new_vector[P];
@@ -948,6 +949,7 @@ var MSV = function (_MSV_) {
       process_update(args)
     };
     var process_update = function (args) {
+      debugger;
       var msv_data_list = db.update_msvs(args);
       for (var i = 0; i < msv_data_list.length; i++) {
         var msv_data = msv_data_list[i];
