@@ -46,10 +46,8 @@ export default function AudioPlayer() {
 
     let app = MCorp.app(code.appId, {anon: true});
     window.app = app;
-
-    console.log("app", app);
+    
     app.run = function () {
-      console.log("app.run")
       
       let motion = app.motions[code.motion];
       motion.update({velocity: 1.0});
@@ -59,7 +57,6 @@ export default function AudioPlayer() {
       window.testReset = () => {
         motion.update({position: 280.0, velocity: 1.0});
       }
-
 
       startSync(motion);
     };
@@ -72,8 +69,7 @@ export default function AudioPlayer() {
       debug: false,
       target: 0.05,
       loop: true,
-      duration: 285,
-      skew: 0
+      duration: 285
     });
   }
 

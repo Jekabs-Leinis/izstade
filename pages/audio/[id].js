@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import Head from 'next/head'
 import styles from '../../styles/Home.module.css'
 import SynchronizedBy from "../component/synchronized-by";
@@ -24,8 +24,8 @@ export default function Voice() {
         <title>I Ru | {name}</title>
         <meta name="description" content="I Ru"/>
         <link rel="icon" href="/icon/favicon.ico"/>
-        <script src="/js/Mcorp.js" async />
-        <script src={"https://mcorp.no/lib/mediasync.js"} async />
+        <script src="http://www.mcorp.no/lib/mcorp-2.0.js" async />
+        <script src="https://mcorp.no/lib/mediasync.js" async />
       </Head>
       <main className={styles.main}>
         {
