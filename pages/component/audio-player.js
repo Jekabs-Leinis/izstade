@@ -66,7 +66,7 @@ export default function AudioPlayer() {
 
   function startSync(motion) {
     audioSync = MCorp.mediaSync(player.current, motion, {
-      debug: false,
+      debug: true,
       target: 0.05,
       loop: true,
       duration: 285
