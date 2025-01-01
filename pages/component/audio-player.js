@@ -10,99 +10,10 @@ export default function AudioPlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
   let audioSync;
 
-  // useEffect(() => {
-  //   // console.log("page loaded", id, isPlaying);
-  //   if (id && isPlaying) {
-  //     startMcorpApp();
-  //
-  //     let volume = 1;
-  //
-  //     window.onfocus = () => {
-  //       if (player.current) {
-  //         player.current.volume = volume;
-  //       }
-  //     };
-  //
-  //     window.onblur = () => {
-  //       if (player.current) {
-  //         volume = player.current.volume;
-  //         //player.current.volume = 0;
-  //       }
-  //     };
-  //   }
-  //
-  //   return () => {
-  //     audioSync?.stop();
-  //     player.current?.pause();
-  //   }
-  // }, [id, isPlaying]);
-  //
-  // function startMcorpApp() {
-  //   let codes = [
-  //     {appId: "5091800104256110023", motion: "iru-master"},
-  //   ];
-  //
-  //   let code = codes[0];
-  //
-  //   let app = MCorp.app(code.appId, {anon: true});
-  //   window.app = app;
-  //
-  //   player.current
-  //  
-  //   app.run = function () {
-  //    
-  //     let motion = app.motions[code.motion];
-  //     motion.update({velocity: 1.0});
-  //
-  //     window.motion = motion;
-  //
-  //     motion.on("timeupdate", function (e) {
-  //       console.log("pos change?", e.pos, player.current?.currentTime, e);
-  //
-  //       //285 sec == 4:45 end of MP3
-  //       if (e.pos >= 285) {
-  //         motion.update({position: 0.0, velocity: 1.0});
-  //       }
-  //     });
-  //
-  //     window.testReset = () => {
-  //       motion.update({position: 280.0, velocity: 1.0});
-  //     }
-  //
-  //     startSync(motion);
-  //   };
-  //  
-  //   app.init();
-  // }
-  //
-  // function startSync(motion) {
-  //   audioSync = MCorp.mediaSync(player.current, motion, {
-  //     debug: false,
-  //     target: 0.05
-  //     // loop: true,
-  //     // duration: 285
-  //   });
-  // }
-
   useEffect(() => {
     // console.log("page loaded", id, isPlaying);
     if (id && isPlaying) {
       startMcorpApp();
-
-      let volume = 1;
-
-      window.onfocus = () => {
-        if (player.current) {
-          player.current.volume = volume;
-        }
-      };
-
-      window.onblur = () => {
-        if (player.current) {
-          volume = player.current.volume;
-          // player.current.volume = 0;
-        }
-      };
     }
 
     return () => {
@@ -136,7 +47,7 @@ export default function AudioPlayer() {
   }
 
   function startSync(motion) {
-    audioSync = MCorp.mediaSync(player.current, motion);
+    audioSync = MCorp.mediaSync(player.current, motion, { target: 0.05 });
   }
 
   return (
