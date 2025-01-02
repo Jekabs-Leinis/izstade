@@ -29,7 +29,7 @@ export default function AudioPlayer() {
       motion.update({velocity: 1.0});
 
       motion.on("timeupdate", function (e) {
-        console.log("pos change?", e.pos, player.current?.currentTime, e);
+        // console.log("pos change?", e.pos, player.current?.currentTime, e);
         
         //285 sec == 4:45 end of MP3
         if (e.pos >= 285) {
