@@ -1,9 +1,9 @@
 {
   "aksels": {
     "name": "Aksels",
-    "description": "",
+    "description": "飛ぶ鶴の\n舞落ちる羽根\n静けさに",
     "link": "/audio/aksels",
-    "symbol": ""
+    "symbol": "年神"
   },
   "aleksis": {
     "name": "Aleksis",
@@ -25,21 +25,21 @@
   },
   "ance": {
     "name": "Ance",
-    "description": "",
+    "description": "鬼火\n羊誘えど\n賢者帰る",
     "link": "/audio/ance",
-    "symbol": ""
+    "symbol": "神蛇"
   },
   "andzela": {
     "name": "Andžela",
-    "description": "",
+    "description": "命如く\n布織る乙女\n遠い歌",
     "link": "/audio/andzela",
-    "symbol": ""
+    "symbol": "ライマの杉綾"
   },
   "anete": {
     "name": "Anete",
-    "description": "",
+    "description": "風車\n来たのを送り\n次を待つ",
     "link": "/audio/anete",
-    "symbol": ""
+    "symbol": "黄金十字"
   },
   "arvis": {
     "name": "Arvis",
@@ -55,9 +55,9 @@
   },
   "emilija": {
     "name": "Emīlija",
-    "description": "",
+    "description": "塩風が\n奥都城撫でる\n霊の凪",
     "link": "/audio/emilija",
-    "symbol": ""
+    "symbol": "重ね豊饒神 "
   },
   "emils": {
     "name": "Emīls",
@@ -67,15 +67,15 @@
   },
   "eliza": {
     "name": "Elīza",
-    "description": "",
+    "description": "穂先には\n結婚式の\n鐘が鳴る",
     "link": "/audio/eliza",
-    "symbol": ""
+    "symbol": "豊饒神"
   },
   "elza": {
     "name": "Elza",
-    "description": "",
+    "description": "禊ぐため\n入る夏川\n元気出た",
     "link": "/audio/elza",
-    "symbol": ""
+    "symbol": "海母神の波"
   },
   "georgs": {
     "name": "Georgs",
@@ -85,9 +85,9 @@
   },
   "haralds": {
     "name": "Haralds",
-    "description": "",
+    "description": "立ち番は\n瞑ると夢に\n帆が見える",
     "link": "/audio/haralds",
-    "symbol": ""
+    "symbol": "月神"
   },
   "haruka": {
     "name": "Haruka",
@@ -115,9 +115,9 @@
   },
   "jekabs": {
     "name": "Jēkabs",
-    "description": "",
+    "description": "世の果てに\n散る石の雲\n揺る梢",
     "link": "/audio/jekabs",
-    "symbol": ""
+    "symbol": "雷神"
   },
   "kanna": {
     "name": "Kanna",
@@ -127,9 +127,9 @@
   },
   "kate": {
     "name": "Kate",
-    "description": "",
+    "description": "深い井戸\n先祖の知恵まで\n遡る",
     "link": "/audio/kate",
-    "symbol": ""
+    "symbol": "井戸"
   },
   "krista": {
     "name": "Krista",
@@ -145,9 +145,9 @@
   },
   "klinta": {
     "name": "Klinta",
-    "description": "",
+    "description": "黄昏の\n手を這う虫は\n家探す\n",
     "link": "/audio/klinta",
-    "symbol": ""
+    "symbol": "地母神"
   },
   "leticija": {
     "name": "Letīcija",
@@ -157,9 +157,9 @@
   },
   "madara": {
     "name": "Madara",
-    "description": "",
+    "description": "待ち遠し\n樵の薪と\n豊漁",
     "link": "/audio/madara",
-    "symbol": ""
+    "symbol": "龍"
   },
   "maho": {
     "name": "Maho",
@@ -205,9 +205,9 @@
   },
   "rudolfs": {
     "name": "Rūdolfs",
-    "description": "",
+    "description": "暁に\n御霊が帰る\n天光",
     "link": "/audio/rudolfs",
-    "symbol": ""
+    "symbol": "蟇"
   },
   "ryokei": {
     "redirect": "ryohei"
@@ -226,9 +226,9 @@
   },
   "sabrina": {
     "name": "Sabrīna",
-    "description": "",
+    "description": "御光で\nよそ霧晴れて\n来る赦し",
     "link": "/audio/sabrina",
-    "symbol": ""
+    "symbol": "天空神"
   },
   "santa": {
     "name": "Santa",
@@ -244,9 +244,9 @@
   },
   "sendija": {
     "name": "Sendija",
-    "description": "",
+    "description": "目の前に\n幾千年の\n総揃い",
     "link": "/audio/sendija",
-    "symbol": ""
+    "symbol": "太陽神"
   },
   "shingo": {
     "name": "Shingo",

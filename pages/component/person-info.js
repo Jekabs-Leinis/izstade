@@ -14,8 +14,8 @@ export default function PersonInfo({language = 'jp'}) {
   const name = lv_data[id]?.name;
 
   const paragraphs = [
-    jp_data[id]?.description,
     lv_data[id]?.description,
+    jp_data[id]?.description,
     en_data[id]?.description,
   ].map((value) => value ? value : "CONTENT IS MISSING");
 

@@ -1,9 +1,9 @@
 {
   "aksels": {
     "name": "Aksels",
-    "description": "",
+    "description": "A feather plummets\nfrom the crane that fles above. \nIt has left us peace.",
     "link": "/audio/aksels",
-    "symbolDescription": ""
+    "symbolDescription": "Deity of the new year and conception"
   },
   "aleksis": {
     "name": "Aleksis",
@@ -25,21 +25,21 @@
   },
   "ance": {
     "name": "Ance",
-    "description": "",
+    "description": "Fires that are a hoax \nLure the sheep into the swamp. \nThe wise turn away.",
     "link": "/audio/ance",
-    "symbolDescription": ""
+    "symbolDescription": "Grass Snake"
   },
   "andzela": {
     "name": "Andžela",
-    "description": "",
+    "description": "Songs in the distance.\nGirls are weaving a shawl there\nit’s as long as life.",
     "link": "/audio/andzela",
-    "symbolDescription": ""
+    "symbolDescription": "Fortune's herringbone"
   },
   "anete": {
     "name": "Anete",
-    "description": "",
+    "description": "Wind from the windmills\nescort the new arrival,\nawaiting the next.",
     "link": "/audio/anete",
-    "symbolDescription": ""
+    "symbolDescription": "Golden Cross"
   },
   "arvis": {
     "name": "Arvis",
@@ -55,9 +55,9 @@
   },
   "emilija": {
     "name": "Emīlija",
-    "description": "",
+    "description": "A salty seabreeze \nsings eternity’s silence.\nSpirits- on the waves.",
     "link": "/audio/emilija",
-    "symbolDescription": ""
+    "symbolDescription": "Flipped Deity of harvest and wealth"
   },
   "emils": {
     "name": "Emīls",
@@ -67,15 +67,15 @@
   },
   "eliza": {
     "name": "Elīza",
-    "description": "",
+    "description": "Ears of grain – quiet tips-\nA prelude to the secret.\nThe wedding bells toll.",
     "link": "/audio/eliza",
-    "symbolDescription": ""
+    "symbolDescription": "Deity of harvest and wealth"
   },
   "elza": {
     "name": "Elza",
-    "description": "",
+    "description": "Into the brook I \nplunge - bathing throughout summer.\nI bring strength back out.",
     "link": "/audio/elza",
-    "symbolDescription": ""
+    "symbolDescription": "Waters of Māra"
   },
   "georgs": {
     "name": "Georgs",
@@ -85,9 +85,9 @@
   },
   "haralds": {
     "name": "Haralds",
-    "description": "",
+    "description": "Robust guards stand strong.\nThe warrior closes his eyes -\nin dreams he sees sails.",
     "link": "/audio/haralds",
-    "symbolDescription": ""
+    "symbolDescription": "Deity of the Moon"
   },
   "haruka": {
     "name": "Haruka",
@@ -115,9 +115,9 @@
   },
   "jekabs": {
     "name": "Jēkabs",
-    "description": "",
+    "description": "The edge of the world\nsuffers falling clouds of stone.\nThe treetops shiver.",
     "link": "/audio/jekabs",
-    "symbolDescription": ""
+    "symbolDescription": "Deity of thunder"
   },
   "kanna": {
     "name": "Kanna",
@@ -127,9 +127,9 @@
   },
   "kate": {
     "name": "Kate",
-    "description": "",
+    "description": "In a deep well shines\nthe wisdom of the  ancients.\nThis – the beginning.",
     "link": "/audio/kate",
-    "symbolDescription": ""
+    "symbolDescription": "Well"
   },
   "krista": {
     "name": "Krista",
@@ -145,9 +145,9 @@
   },
   "klinta": {
     "name": "Klinta",
-    "description": "",
+    "description": "In evening twilight \na beetle crawls over the palm. \nLooking for its home",
     "link": "/audio/klinta",
-    "symbolDescription": ""
+    "symbolDescription": "Maternal deity of Earth"
   },
   "leticija": {
     "name": "Letīcija",
@@ -157,9 +157,9 @@
   },
   "madara": {
     "name": "Madara",
-    "description": "",
+    "description": "Eternal longings -\nfirewood falls in the forest,\nFish come to the yard. ",
     "link": "/audio/madara",
-    "symbolDescription": ""
+    "symbolDescription": "Robinhoodian dragon"
   },
   "maho": {
     "name": "Maho",
@@ -205,9 +205,9 @@
   },
   "rudolfs": {
     "name": "Rūdolfs",
-    "description": "",
+    "description": "The sky streams with light -\nspirits return to the gate.\nDawn brings a new start.",
     "link": "/audio/rudolfs",
-    "symbolDescription": ""
+    "symbolDescription": "Toad"
   },
   "ryokei": {
     "redirect": "ryohei"
@@ -226,9 +226,9 @@
   },
   "sabrina": {
     "name": "Sabrīna",
-    "description": "",
+    "description": "In the divine light\nThe mist’s oddness dissipates.\nForgiveness draws near.",
     "link": "/audio/sabrina",
-    "symbolDescription": ""
+    "symbolDescription": "Latvian God"
   },
   "santa": {
     "name": "Santa",
@@ -244,9 +244,9 @@
   },
   "sendija": {
     "name": "Sendija",
-    "description": "",
+    "description": "In front of one’s eyes\nStored over millenia\nStood white perfection",
     "link": "/audio/sendija",
-    "symbolDescription": ""
+    "symbolDescription": "Deity of the Sun"
   },
   "shingo": {
     "name": "Shingo",
