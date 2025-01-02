@@ -123,7 +123,7 @@
     "name": "Kanna",
     "description": "交差点\n鳥は飛び過ぎ\n人止まる",
     "link": "/audio/kanna",
-    "symbol": "角花久留子（ラトビア神道象徴）"
+    "symbol": "角花久留子"
   },
   "kate": {
     "name": "Kate",
@@ -135,7 +135,7 @@
     "name": "Krista",
     "description": "足が向く\n聖し家路の\n青木立",
     "link": "/audio/krista",
-    "symbol": "ライマの箒（玉串）"
+    "symbol": "ライマの箒"
   },
   "krisjanis": {
     "name": "Krišjānis",
@@ -171,13 +171,13 @@
     "name": "Māra",
     "description": "交差点\n鳥は飛び過ぎ\n人止まる",
     "link": "/audio/mara",
-    "symbol": "角花久留子（ラトビア神道象徴）"
+    "symbol": "角花久留子"
   },
   "mina": {
     "name": "Mina",
     "description": "青い牧\n話し合う馬\n聞き取れる",
     "link": "/audio/mina",
-    "symbol": "貯畜神（貯蓄と家畜の守り神）"
+    "symbol": "貯畜神"
   },
   "nora": {
     "name": "Nora",
@@ -234,7 +234,7 @@
     "name": "Santa",
     "description": "青い牧\n話し合う馬\n聞き取れる",
     "link": "/audio/santa",
-    "symbol": "貯畜神（貯蓄と家畜の守り神）"
+    "symbol": "貯畜神"
   },
   "sawako": {
     "name": "Sawako",
@@ -264,7 +264,7 @@
     "name": "Shunya",
     "description": "足が向く\n聖し家路の\n青木立",
     "link": "/audio/shunya",
-    "symbol": "ライマの箒（玉串）"
+    "symbol": "ライマの箒"
   },
   "signe": {
     "name": "Signe",
