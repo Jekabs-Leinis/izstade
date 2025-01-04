@@ -371,9 +371,9 @@
   },
   "master": {
     "name": "master",
-    "description": "Master recording",
+    "description": "master recording",
     "link": "/audio/master",
-    "symbol": "perkons",
+    "symbol": "jumis",
     "symbolDescription": "master recording"
   },
   "info_japan": {

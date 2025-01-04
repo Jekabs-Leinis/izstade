@@ -319,9 +319,9 @@
   },
   "master": {
     "name": "master",
-    "description": "",
+    "description": "master recording",
     "link": "/audio/master",
-    "symbolDescription": ""
+    "symbolDescription": "master recording"
   },
   "info_japan": {
     "name": "Sounding photo exhibition I Ru",

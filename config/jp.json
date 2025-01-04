@@ -319,9 +319,9 @@
   },
   "master": {
     "name": "master",
-    "description": "",
+    "description": "master recording",
     "link": "/audio/master",
-    "symbol": ""
+    "symbol": "master recording"
   },
   "info_japan": {
     "name": "音の写真展「I Ru」",

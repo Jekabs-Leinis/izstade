@@ -1,4 +1,4 @@
- import React from 'react'
+ import React, {useEffect} from 'react'
 import Head from 'next/head'
 import styles from '../../styles/Home.module.css'
 import SynchronizedBy from "../component/synchronized-by";
@@ -15,6 +15,39 @@ export default function Voice() {
     
     return null;
   }
+  useEffect(() => {
+    if (id !== "master") {
+      return;
+    }
+    
+    if (!("wakeLock" in navigator)) {
+      console.error("Wake Lock API not supported.");
+
+      return;
+    }
+    
+    console.log("Wake Lock API is supported.")
+    
+    let getWakeLock = async () => {
+      try {
+        return await navigator.wakeLock.request("screen");
+      } catch (err) {
+        console.error(`${err.name}, ${err.message}`);
+
+        return null;
+      }
+    }
+    
+    let lock = getWakeLock()
+      .then(() => console.log("Wake Lock is active"));
+    
+    document.addEventListener("visibilitychange", async () => {
+      if (lock !== null && document.visibilityState === "visible") {
+        lock = getWakeLock()
+          .then(() => console.log("Wake Lock reactivated"));
+      }
+    });
+  }, [id]);
   
   const name = lv_data[id]?.name;
 
