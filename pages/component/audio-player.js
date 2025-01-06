@@ -14,6 +14,18 @@ export default function AudioPlayer() {
     // console.log("page loaded", id, isPlaying);
     if (id && isPlaying) {
       startMcorpApp();
+
+      window.onfocus = () => {
+        if (player.current) {
+          player.current.volume = 1;
+        }
+      };
+
+      window.onblur = () => {
+        if (player.current) {
+          player.current.volume = 1;
+        }
+      };
     }
 
     return () => {
@@ -26,7 +38,10 @@ export default function AudioPlayer() {
     let app = MCorp.app("5091800104256110023", {anon: true});
     app.run = function () {
       let motion = app.motions["iru-master"];
-      motion.update({velocity: 1.0});
+      
+      if (motion.query().vel !== 1.0) {
+        motion.update({velocity: 1.0});
+      }
 
       motion.on("timeupdate", function (e) {
         // console.log("pos change?", e.pos, player.current?.currentTime, e);

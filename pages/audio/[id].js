@@ -16,10 +16,6 @@ export default function Voice() {
     return null;
   }
   useEffect(() => {
-    if (id !== "master") {
-      return;
-    }
-    
     if (!("wakeLock" in navigator)) {
       console.error("Wake Lock API not supported.");
 
