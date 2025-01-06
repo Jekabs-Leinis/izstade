@@ -216,13 +216,6 @@
     "symbol": "dubultais_jumis",
     "symbolDescription": "Dubultais Jumis"
   },
-  "norio": {
-    "name": "Norio",
-    "description": "",
-    "link": "/audio/norio",
-    "symbol": "",
-    "symbolDescription": ""
-  },
   "patricija": {
     "name": "Patrīcija",
     "description": "Ziemas svētku nakts\npagriež laiku neredzot.\nSniegā tās pēdas.\n",
@@ -264,7 +257,7 @@
   "sabrina": {
     "name": "Sabrīna",
     "description": "Dievišķā gaismā\nmiglas svešumi noriet.\nPiedošana nāk.",
-    "link": "/audio/sabrina",
+    "link": "/audio/kate",
     "symbol": "dievs",
     "symbolDescription": "Dievs"
   },
