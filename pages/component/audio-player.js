@@ -35,9 +35,9 @@ export default function AudioPlayer() {
   }, [id, isPlaying]);
 
   function startMcorpApp() {
-    let app = MCorp.app("4952025322445042341", {anon: true});
+    let app = MCorp.app("6140754273861824646", {anon: true});
     app.run = function () {
-      let motion = app.motions["audio-sync"];
+      let motion = app.motions["iru-master"];
       
       if (motion.query().vel !== 1.0) {
         motion.update({velocity: 1.0});
